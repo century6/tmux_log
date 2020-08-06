@@ -1,0 +1,1623 @@
+1596705059.003801 server started (2423): version 3.1, socket /tmp/tmux-0/default, protocol 8
+1596705059.003839 on Linux 5.6.6-300.fc32.aarch64 #1 SMP Tue Apr 21 13:25:53 UTC 2020; libevent 2.1.8-stable (poll)
+1596705059.003951 yylex_token: bind
+1596705059.003960 yylex_token: -N
+1596705059.003967 yylex_token: Send the prefix key
+1596705059.003973 yylex_token: C-b
+1596705059.003979 yylex_token: send-prefix
+1596705059.003995 cmd_parse_build_commands: 0 bind
+1596705059.004001 cmd_parse_build_commands: argv[0]=-N
+1596705059.004006 cmd_parse_build_commands: argv[1]=Send the prefix key
+1596705059.004012 cmd_parse_build_commands: argv[2]=C-b
+1596705059.004017 cmd_parse_build_commands: argv[3]=send-prefix
+1596705059.004029 cmd_parse: bind-key: argv[0]=bind
+1596705059.004035 cmd_parse: bind-key: argv[1]=-N
+1596705059.004040 cmd_parse: bind-key: argv[2]=Send the prefix key
+1596705059.004045 cmd_parse: bind-key: argv[3]=C-b
+1596705059.004050 cmd_parse: bind-key: argv[4]=send-prefix
+1596705059.004076 cmd_parse_build_commands: bind-key -N "Send the prefix key" C-b send-prefix
+1596705059.004085 cmdq_get_command: [bind-key/0xaaaaf7ddf140] group 5
+1596705059.004091 cmdq_append <global>: [bind-key/0xaaaaf7ddf140]
+1596705059.004104 yylex_token: bind
+1596705059.004110 yylex_token: -N
+1596705059.004117 yylex_token: Rotate through the panes
+1596705059.004122 yylex_token: C-o
+1596705059.004128 yylex_token: rotate-window
+1596705059.004136 cmd_parse_build_commands: 0 bind
+1596705059.004142 cmd_parse_build_commands: argv[0]=-N
+1596705059.004147 cmd_parse_build_commands: argv[1]=Rotate through the panes
+1596705059.004152 cmd_parse_build_commands: argv[2]=C-o
+1596705059.004157 cmd_parse_build_commands: argv[3]=rotate-window
+1596705059.004163 cmd_parse: bind-key: argv[0]=bind
+1596705059.004168 cmd_parse: bind-key: argv[1]=-N
+1596705059.004174 cmd_parse: bind-key: argv[2]=Rotate through the panes
+1596705059.004179 cmd_parse: bind-key: argv[3]=C-o
+1596705059.004184 cmd_parse: bind-key: argv[4]=rotate-window
+1596705059.004197 cmd_parse_build_commands: bind-key -N "Rotate through the panes" C-o rotate-window
+1596705059.004205 cmdq_get_command: [bind-key/0xaaaaf7ddfe30] group 8
+1596705059.004211 cmdq_append <global>: [bind-key/0xaaaaf7ddfe30]
+1596705059.004217 yylex_token: bind
+1596705059.004223 yylex_token: -N
+1596705059.004229 yylex_token: Suspend the current client
+1596705059.004234 yylex_token: C-z
+1596705059.004240 yylex_token: suspend-client
+1596705059.004248 cmd_parse_build_commands: 0 bind
+1596705059.004253 cmd_parse_build_commands: argv[0]=-N
+1596705059.004259 cmd_parse_build_commands: argv[1]=Suspend the current client
+1596705059.004264 cmd_parse_build_commands: argv[2]=C-z
+1596705059.004270 cmd_parse_build_commands: argv[3]=suspend-client
+1596705059.004276 cmd_parse: bind-key: argv[0]=bind
+1596705059.004281 cmd_parse: bind-key: argv[1]=-N
+1596705059.004286 cmd_parse: bind-key: argv[2]=Suspend the current client
+1596705059.004291 cmd_parse: bind-key: argv[3]=C-z
+1596705059.004297 cmd_parse: bind-key: argv[4]=suspend-client
+1596705059.004314 cmd_parse_build_commands: bind-key -N "Suspend the current client" C-z suspend-client
+1596705059.004322 cmdq_get_command: [bind-key/0xaaaaf7de0990] group 11
+1596705059.004328 cmdq_append <global>: [bind-key/0xaaaaf7de0990]
+1596705059.004338 yylex_token: bind
+1596705059.004344 yylex_token: -N
+1596705059.004350 yylex_token: Select next layout
+1596705059.004355 yylex_token: Space
+1596705059.004361 yylex_token: next-layout
+1596705059.004368 cmd_parse_build_commands: 0 bind
+1596705059.004374 cmd_parse_build_commands: argv[0]=-N
+1596705059.004380 cmd_parse_build_commands: argv[1]=Select next layout
+1596705059.004385 cmd_parse_build_commands: argv[2]=Space
+1596705059.004390 cmd_parse_build_commands: argv[3]=next-layout
+1596705059.004396 cmd_parse: bind-key: argv[0]=bind
+1596705059.004402 cmd_parse: bind-key: argv[1]=-N
+1596705059.004407 cmd_parse: bind-key: argv[2]=Select next layout
+1596705059.004413 cmd_parse: bind-key: argv[3]=Space
+1596705059.004418 cmd_parse: bind-key: argv[4]=next-layout
+1596705059.004430 cmd_parse_build_commands: bind-key -N "Select next layout" Space next-layout
+1596705059.004456 cmdq_get_command: [bind-key/0xaaaaf7de1180] group 14
+1596705059.004462 cmdq_append <global>: [bind-key/0xaaaaf7de1180]
+1596705059.004468 yylex_token: bind
+1596705059.004474 yylex_token: -N
+1596705059.004481 yylex_token: Break pane to a new window
+1596705059.004486 yylex_token: !
+1596705059.004491 yylex_token: break-pane
+1596705059.004498 cmd_parse_build_commands: 0 bind
+1596705059.004504 cmd_parse_build_commands: argv[0]=-N
+1596705059.004509 cmd_parse_build_commands: argv[1]=Break pane to a new window
+1596705059.004514 cmd_parse_build_commands: argv[2]=!
+1596705059.004520 cmd_parse_build_commands: argv[3]=break-pane
+1596705059.004525 cmd_parse: bind-key: argv[0]=bind
+1596705059.004530 cmd_parse: bind-key: argv[1]=-N
+1596705059.004536 cmd_parse: bind-key: argv[2]=Break pane to a new window
+1596705059.004541 cmd_parse: bind-key: argv[3]=!
+1596705059.004546 cmd_parse: bind-key: argv[4]=break-pane
+1596705059.004558 cmd_parse_build_commands: bind-key -N "Break pane to a new window" ! break-pane
+1596705059.004565 cmdq_get_command: [bind-key/0xaaaaf7de1aa0] group 17
+1596705059.004571 cmdq_append <global>: [bind-key/0xaaaaf7de1aa0]
+1596705059.004581 yylex_token: bind
+1596705059.004587 yylex_token: -N
+1596705059.004594 yylex_token: Split window vertically
+1596705059.004599 yylex_token: "
+1596705059.004605 yylex_token: split-window
+1596705059.004612 cmd_parse_build_commands: 0 bind
+1596705059.004618 cmd_parse_build_commands: argv[0]=-N
+1596705059.004623 cmd_parse_build_commands: argv[1]=Split window vertically
+1596705059.004629 cmd_parse_build_commands: argv[2]="
+1596705059.004634 cmd_parse_build_commands: argv[3]=split-window
+1596705059.004640 cmd_parse: bind-key: argv[0]=bind
+1596705059.004645 cmd_parse: bind-key: argv[1]=-N
+1596705059.004650 cmd_parse: bind-key: argv[2]=Split window vertically
+1596705059.004656 cmd_parse: bind-key: argv[3]="
+1596705059.004661 cmd_parse: bind-key: argv[4]=split-window
+1596705059.004673 cmd_parse_build_commands: bind-key -N "Split window vertically" \\" split-window
+1596705059.004680 cmdq_get_command: [bind-key/0xaaaaf7de20e0] group 20
+1596705059.004686 cmdq_append <global>: [bind-key/0xaaaaf7de20e0]
+1596705059.004693 yylex_token: bind
+1596705059.004698 yylex_token: -N
+1596705059.004705 yylex_token: List all paste buffers
+1596705059.004710 yylex_token: #
+1596705059.004716 yylex_token: list-buffers
+1596705059.004723 cmd_parse_build_commands: 0 bind
+1596705059.004728 cmd_parse_build_commands: argv[0]=-N
+1596705059.004734 cmd_parse_build_commands: argv[1]=List all paste buffers
+1596705059.004739 cmd_parse_build_commands: argv[2]=#
+1596705059.004744 cmd_parse_build_commands: argv[3]=list-buffers
+1596705059.004750 cmd_parse: bind-key: argv[0]=bind
+1596705059.004756 cmd_parse: bind-key: argv[1]=-N
+1596705059.004761 cmd_parse: bind-key: argv[2]=List all paste buffers
+1596705059.004766 cmd_parse: bind-key: argv[3]=#
+1596705059.004772 cmd_parse: bind-key: argv[4]=list-buffers
+1596705059.004783 cmd_parse_build_commands: bind-key -N "List all paste buffers" \\# list-buffers
+1596705059.004791 cmdq_get_command: [bind-key/0xaaaaf7de25c0] group 23
+1596705059.004885 cmdq_append <global>: [bind-key/0xaaaaf7de25c0]
+1596705059.004902 yylex_token: bind
+1596705059.004908 yylex_token: -N
+1596705059.004915 yylex_token: Rename current session
+1596705059.004920 yylex_token: $
+1596705059.004926 yylex_token: command-prompt
+1596705059.004932 yylex_token: -I#S
+1596705059.004938 yylex_token: rename-session -- '%%'
+1596705059.004947 cmd_parse_build_commands: 0 bind
+1596705059.004953 cmd_parse_build_commands: argv[0]=-N
+1596705059.004958 cmd_parse_build_commands: argv[1]=Rename current session
+1596705059.004964 cmd_parse_build_commands: argv[2]=$
+1596705059.004969 cmd_parse_build_commands: argv[3]=command-prompt
+1596705059.004975 cmd_parse_build_commands: argv[4]=-I#S
+1596705059.004980 cmd_parse_build_commands: argv[5]=rename-session -- '%%'
+1596705059.004987 cmd_parse: bind-key: argv[0]=bind
+1596705059.004992 cmd_parse: bind-key: argv[1]=-N
+1596705059.005005 cmd_parse: bind-key: argv[2]=Rename current session
+1596705059.005011 cmd_parse: bind-key: argv[3]=$
+1596705059.005016 cmd_parse: bind-key: argv[4]=command-prompt
+1596705059.005021 cmd_parse: bind-key: argv[5]=-I#S
+1596705059.005027 cmd_parse: bind-key: argv[6]=rename-session -- '%%'
+1596705059.005047 cmd_parse_build_commands: bind-key -N "Rename current session" \\$ command-prompt "-I#S" "rename-session -- '%%'"
+1596705059.005054 cmdq_get_command: [bind-key/0xaaaaf7de3070] group 26
+1596705059.005060 cmdq_append <global>: [bind-key/0xaaaaf7de3070]
+1596705059.005067 yylex_token: bind
+1596705059.005072 yylex_token: -N
+1596705059.005079 yylex_token: Split window horizontally
+1596705059.005084 yylex_get_word: %
+1596705059.005090 yylex_token: split-window
+1596705059.005095 yylex_token: -h
+1596705059.005103 cmd_parse_build_commands: 0 bind
+1596705059.005108 cmd_parse_build_commands: argv[0]=-N
+1596705059.005114 cmd_parse_build_commands: argv[1]=Split window horizontally
+1596705059.005119 cmd_parse_build_commands: argv[2]=%
+1596705059.005124 cmd_parse_build_commands: argv[3]=split-window
+1596705059.005129 cmd_parse_build_commands: argv[4]=-h
+1596705059.005135 cmd_parse: bind-key: argv[0]=bind
+1596705059.005140 cmd_parse: bind-key: argv[1]=-N
+1596705059.005146 cmd_parse: bind-key: argv[2]=Split window horizontally
+1596705059.005151 cmd_parse: bind-key: argv[3]=%
+1596705059.005156 cmd_parse: bind-key: argv[4]=split-window
+1596705059.005161 cmd_parse: bind-key: argv[5]=-h
+1596705059.005174 cmd_parse_build_commands: bind-key -N "Split window horizontally" % split-window -h
+1596705059.005181 cmdq_get_command: [bind-key/0xaaaaf7de3760] group 29
+1596705059.005187 cmdq_append <global>: [bind-key/0xaaaaf7de3760]
+1596705059.005198 yylex_token: bind
+1596705059.005203 yylex_token: -N
+1596705059.005210 yylex_token: Kill current window
+1596705059.005215 yylex_token: &
+1596705059.005221 yylex_token: confirm-before
+1596705059.005227 yylex_token: -pkill-window #W? (y/n)
+1596705059.005233 yylex_token: kill-window
+1596705059.005240 cmd_parse_build_commands: 0 bind
+1596705059.005246 cmd_parse_build_commands: argv[0]=-N
+1596705059.005252 cmd_parse_build_commands: argv[1]=Kill current window
+1596705059.005257 cmd_parse_build_commands: argv[2]=&
+1596705059.005262 cmd_parse_build_commands: argv[3]=confirm-before
+1596705059.005268 cmd_parse_build_commands: argv[4]=-pkill-window #W? (y/n)
+1596705059.005273 cmd_parse_build_commands: argv[5]=kill-window
+1596705059.005279 cmd_parse: bind-key: argv[0]=bind
+1596705059.005284 cmd_parse: bind-key: argv[1]=-N
+1596705059.005289 cmd_parse: bind-key: argv[2]=Kill current window
+1596705059.005294 cmd_parse: bind-key: argv[3]=&
+1596705059.005300 cmd_parse: bind-key: argv[4]=confirm-before
+1596705059.005305 cmd_parse: bind-key: argv[5]=-pkill-window #W? (y/n)
+1596705059.005311 cmd_parse: bind-key: argv[6]=kill-window
+1596705059.005327 cmd_parse_build_commands: bind-key -N "Kill current window" & confirm-before "-pkill-window #W? (y/n)" kill-window
+1596705059.005335 cmdq_get_command: [bind-key/0xaaaaf7de41c0] group 32
+1596705059.005341 cmdq_append <global>: [bind-key/0xaaaaf7de41c0]
+1596705059.005348 yylex_token: bind
+1596705059.005353 yylex_token: -N
+1596705059.005360 yylex_token: Prompt for window index to select
+1596705059.005366 yylex_token: '
+1596705059.005372 yylex_token: command-prompt
+1596705059.005377 yylex_token: -pindex
+1596705059.005384 yylex_token: select-window -t ':%%'
+1596705059.005391 cmd_parse_build_commands: 0 bind
+1596705059.005397 cmd_parse_build_commands: argv[0]=-N
+1596705059.005402 cmd_parse_build_commands: argv[1]=Prompt for window index to select
+1596705059.005408 cmd_parse_build_commands: argv[2]='
+1596705059.005413 cmd_parse_build_commands: argv[3]=command-prompt
+1596705059.005419 cmd_parse_build_commands: argv[4]=-pindex
+1596705059.005424 cmd_parse_build_commands: argv[5]=select-window -t ':%%'
+1596705059.005431 cmd_parse: bind-key: argv[0]=bind
+1596705059.005436 cmd_parse: bind-key: argv[1]=-N
+1596705059.005441 cmd_parse: bind-key: argv[2]=Prompt for window index to select
+1596705059.005452 cmd_parse: bind-key: argv[3]='
+1596705059.005458 cmd_parse: bind-key: argv[4]=command-prompt
+1596705059.005463 cmd_parse: bind-key: argv[5]=-pindex
+1596705059.005468 cmd_parse: bind-key: argv[6]=select-window -t ':%%'
+1596705059.005486 cmd_parse_build_commands: bind-key -N "Prompt for window index to select" \\' command-prompt -pindex "select-window -t ':%%'"
+1596705059.005493 cmdq_get_command: [bind-key/0xaaaaf7de4880] group 35
+1596705059.005498 cmdq_append <global>: [bind-key/0xaaaaf7de4880]
+1596705059.005509 yylex_token: bind
+1596705059.005515 yylex_token: -N
+1596705059.005521 yylex_token: Switch to previous client
+1596705059.005526 yylex_token: (
+1596705059.005532 yylex_token: switch-client
+1596705059.005537 yylex_token: -p
+1596705059.005544 cmd_parse_build_commands: 0 bind
+1596705059.005549 cmd_parse_build_commands: argv[0]=-N
+1596705059.005555 cmd_parse_build_commands: argv[1]=Switch to previous client
+1596705059.005560 cmd_parse_build_commands: argv[2]=(
+1596705059.005565 cmd_parse_build_commands: argv[3]=switch-client
+1596705059.005570 cmd_parse_build_commands: argv[4]=-p
+1596705059.005576 cmd_parse: bind-key: argv[0]=bind
+1596705059.005581 cmd_parse: bind-key: argv[1]=-N
+1596705059.005586 cmd_parse: bind-key: argv[2]=Switch to previous client
+1596705059.005591 cmd_parse: bind-key: argv[3]=(
+1596705059.005597 cmd_parse: bind-key: argv[4]=switch-client
+1596705059.005602 cmd_parse: bind-key: argv[5]=-p
+1596705059.005615 cmd_parse_build_commands: bind-key -N "Switch to previous client" ( switch-client -p
+1596705059.005622 cmdq_get_command: [bind-key/0xaaaaf7de4e60] group 38
+1596705059.005627 cmdq_append <global>: [bind-key/0xaaaaf7de4e60]
+1596705059.005634 yylex_token: bind
+1596705059.005639 yylex_token: -N
+1596705059.005645 yylex_token: Switch to next client
+1596705059.005650 yylex_token: )
+1596705059.005656 yylex_token: switch-client
+1596705059.005661 yylex_token: -n
+1596705059.005668 cmd_parse_build_commands: 0 bind
+1596705059.005674 cmd_parse_build_commands: argv[0]=-N
+1596705059.005679 cmd_parse_build_commands: argv[1]=Switch to next client
+1596705059.005684 cmd_parse_build_commands: argv[2]=)
+1596705059.005689 cmd_parse_build_commands: argv[3]=switch-client
+1596705059.005695 cmd_parse_build_commands: argv[4]=-n
+1596705059.005700 cmd_parse: bind-key: argv[0]=bind
+1596705059.005706 cmd_parse: bind-key: argv[1]=-N
+1596705059.005711 cmd_parse: bind-key: argv[2]=Switch to next client
+1596705059.005716 cmd_parse: bind-key: argv[3]=)
+1596705059.005721 cmd_parse: bind-key: argv[4]=switch-client
+1596705059.005726 cmd_parse: bind-key: argv[5]=-n
+1596705059.005739 cmd_parse_build_commands: bind-key -N "Switch to next client" ) switch-client -n
+1596705059.005746 cmdq_get_command: [bind-key/0xaaaaf7de5550] group 41
+1596705059.005752 cmdq_append <global>: [bind-key/0xaaaaf7de5550]
+1596705059.005763 yylex_token: bind
+1596705059.005768 yylex_token: -N
+1596705059.005774 yylex_token: Rename current window
+1596705059.005779 yylex_token: ,
+1596705059.005785 yylex_token: command-prompt
+1596705059.005791 yylex_token: -I#W
+1596705059.005797 yylex_token: rename-window -- '%%'
+1596705059.005804 cmd_parse_build_commands: 0 bind
+1596705059.005810 cmd_parse_build_commands: argv[0]=-N
+1596705059.005816 cmd_parse_build_commands: argv[1]=Rename current window
+1596705059.005821 cmd_parse_build_commands: argv[2]=,
+1596705059.005826 cmd_parse_build_commands: argv[3]=command-prompt
+1596705059.005832 cmd_parse_build_commands: argv[4]=-I#W
+1596705059.005837 cmd_parse_build_commands: argv[5]=rename-window -- '%%'
+1596705059.005843 cmd_parse: bind-key: argv[0]=bind
+1596705059.005849 cmd_parse: bind-key: argv[1]=-N
+1596705059.005854 cmd_parse: bind-key: argv[2]=Rename current window
+1596705059.005860 cmd_parse: bind-key: argv[3]=,
+1596705059.005865 cmd_parse: bind-key: argv[4]=command-prompt
+1596705059.005870 cmd_parse: bind-key: argv[5]=-I#W
+1596705059.005876 cmd_parse: bind-key: argv[6]=rename-window -- '%%'
+1596705059.005892 cmd_parse_build_commands: bind-key -N "Rename current window" , command-prompt "-I#W" "rename-window -- '%%'"
+1596705059.005905 cmdq_get_command: [bind-key/0xaaaaf7de5ab0] group 44
+1596705059.005911 cmdq_append <global>: [bind-key/0xaaaaf7de5ab0]
+1596705059.005918 yylex_token: bind
+1596705059.005923 yylex_token: -N
+1596705059.005931 yylex_token: Delete the most recent paste buffer
+1596705059.005936 yylex_token: -
+1596705059.005942 yylex_token: delete-buffer
+1596705059.005949 cmd_parse_build_commands: 0 bind
+1596705059.005954 cmd_parse_build_commands: argv[0]=-N
+1596705059.005960 cmd_parse_build_commands: argv[1]=Delete the most recent paste buffer
+1596705059.005965 cmd_parse_build_commands: argv[2]=-
+1596705059.005970 cmd_parse_build_commands: argv[3]=delete-buffer
+1596705059.005976 cmd_parse: bind-key: argv[0]=bind
+1596705059.005981 cmd_parse: bind-key: argv[1]=-N
+1596705059.005986 cmd_parse: bind-key: argv[2]=Delete the most recent paste buffer
+1596705059.005991 cmd_parse: bind-key: argv[3]=-
+1596705059.005997 cmd_parse: bind-key: argv[4]=delete-buffer
+1596705059.006009 cmd_parse_build_commands: bind-key -N "Delete the most recent paste buffer" - delete-buffer
+1596705059.006016 cmdq_get_command: [bind-key/0xaaaaf7de5e60] group 47
+1596705059.006021 cmdq_append <global>: [bind-key/0xaaaaf7de5e60]
+1596705059.006028 yylex_token: bind
+1596705059.006033 yylex_token: -N
+1596705059.006040 yylex_token: Move the current window
+1596705059.006045 yylex_token: .
+1596705059.006050 yylex_token: command-prompt
+1596705059.006057 yylex_token: move-window -t '%%'
+1596705059.006064 cmd_parse_build_commands: 0 bind
+1596705059.006069 cmd_parse_build_commands: argv[0]=-N
+1596705059.006074 cmd_parse_build_commands: argv[1]=Move the current window
+1596705059.006079 cmd_parse_build_commands: argv[2]=.
+1596705059.006085 cmd_parse_build_commands: argv[3]=command-prompt
+1596705059.006090 cmd_parse_build_commands: argv[4]=move-window -t '%%'
+1596705059.006096 cmd_parse: bind-key: argv[0]=bind
+1596705059.006102 cmd_parse: bind-key: argv[1]=-N
+1596705059.006107 cmd_parse: bind-key: argv[2]=Move the current window
+1596705059.006112 cmd_parse: bind-key: argv[3]=.
+1596705059.006117 cmd_parse: bind-key: argv[4]=command-prompt
+1596705059.006123 cmd_parse: bind-key: argv[5]=move-window -t '%%'
+1596705059.006137 cmd_parse_build_commands: bind-key -N "Move the current window" . command-prompt "move-window -t '%%'"
+1596705059.006145 cmdq_get_command: [bind-key/0xaaaaf7de6680] group 50
+1596705059.006150 cmdq_append <global>: [bind-key/0xaaaaf7de6680]
+1596705059.006162 yylex_token: bind
+1596705059.006168 yylex_token: -N
+1596705059.006174 yylex_token: Describe key binding
+1596705059.006179 yylex_token: /
+1596705059.006185 yylex_token: command-prompt
+1596705059.006191 yylex_token: -kpkey
+1596705059.006198 yylex_token: list-keys -1N "%%%"
+1596705059.006205 cmd_parse_build_commands: 0 bind
+1596705059.006210 cmd_parse_build_commands: argv[0]=-N
+1596705059.006216 cmd_parse_build_commands: argv[1]=Describe key binding
+1596705059.006221 cmd_parse_build_commands: argv[2]=/
+1596705059.006227 cmd_parse_build_commands: argv[3]=command-prompt
+1596705059.006232 cmd_parse_build_commands: argv[4]=-kpkey
+1596705059.006237 cmd_parse_build_commands: argv[5]=list-keys -1N "%%%"
+1596705059.006243 cmd_parse: bind-key: argv[0]=bind
+1596705059.006248 cmd_parse: bind-key: argv[1]=-N
+1596705059.006254 cmd_parse: bind-key: argv[2]=Describe key binding
+1596705059.006259 cmd_parse: bind-key: argv[3]=/
+1596705059.006265 cmd_parse: bind-key: argv[4]=command-prompt
+1596705059.006270 cmd_parse: bind-key: argv[5]=-kpkey
+1596705059.006275 cmd_parse: bind-key: argv[6]=list-keys -1N "%%%"
+1596705059.006291 cmd_parse_build_commands: bind-key -N "Describe key binding" / command-prompt -kpkey "list-keys -1N \\"%%%\\""
+1596705059.006298 cmdq_get_command: [bind-key/0xaaaaf7de6e80] group 53
+1596705059.006304 cmdq_append <global>: [bind-key/0xaaaaf7de6e80]
+1596705059.006311 yylex_token: bind
+1596705059.006316 yylex_token: -N
+1596705059.006322 yylex_token: Select window 0
+1596705059.006327 yylex_token: 0
+1596705059.006333 yylex_token: select-window
+1596705059.006338 yylex_token: -t:=0
+1596705059.006345 cmd_parse_build_commands: 0 bind
+1596705059.006361 cmd_parse_build_commands: argv[0]=-N
+1596705059.006367 cmd_parse_build_commands: argv[1]=Select window 0
+1596705059.006372 cmd_parse_build_commands: argv[2]=0
+1596705059.006377 cmd_parse_build_commands: argv[3]=select-window
+1596705059.006382 cmd_parse_build_commands: argv[4]=-t:=0
+1596705059.006388 cmd_parse: bind-key: argv[0]=bind
+1596705059.006393 cmd_parse: bind-key: argv[1]=-N
+1596705059.006399 cmd_parse: bind-key: argv[2]=Select window 0
+1596705059.006404 cmd_parse: bind-key: argv[3]=0
+1596705059.006409 cmd_parse: bind-key: argv[4]=select-window
+1596705059.006414 cmd_parse: bind-key: argv[5]=-t:=0
+1596705059.006427 cmd_parse_build_commands: bind-key -N "Select window 0" 0 select-window -t:=0
+1596705059.006434 cmdq_get_command: [bind-key/0xaaaaf7de7290] group 56
+1596705059.006439 cmdq_append <global>: [bind-key/0xaaaaf7de7290]
+1596705059.006450 yylex_token: bind
+1596705059.006482 yylex_token: -N
+1596705059.006491 yylex_token: Select window 1
+1596705059.006515 yylex_token: 1
+1596705059.006522 yylex_token: select-window
+1596705059.006528 yylex_token: -t:=1
+1596705059.006537 cmd_parse_build_commands: 0 bind
+1596705059.006543 cmd_parse_build_commands: argv[0]=-N
+1596705059.006548 cmd_parse_build_commands: argv[1]=Select window 1
+1596705059.006554 cmd_parse_build_commands: argv[2]=1
+1596705059.006559 cmd_parse_build_commands: argv[3]=select-window
+1596705059.006565 cmd_parse_build_commands: argv[4]=-t:=1
+1596705059.006571 cmd_parse: bind-key: argv[0]=bind
+1596705059.006576 cmd_parse: bind-key: argv[1]=-N
+1596705059.006581 cmd_parse: bind-key: argv[2]=Select window 1
+1596705059.006586 cmd_parse: bind-key: argv[3]=1
+1596705059.006591 cmd_parse: bind-key: argv[4]=select-window
+1596705059.006596 cmd_parse: bind-key: argv[5]=-t:=1
+1596705059.006611 cmd_parse_build_commands: bind-key -N "Select window 1" 1 select-window -t:=1
+1596705059.006618 cmdq_get_command: [bind-key/0xaaaaf7de7800] group 59
+1596705059.006624 cmdq_append <global>: [bind-key/0xaaaaf7de7800]
+1596705059.006631 yylex_token: bind
+1596705059.006636 yylex_token: -N
+1596705059.006643 yylex_token: Select window 2
+1596705059.006647 yylex_token: 2
+1596705059.006653 yylex_token: select-window
+1596705059.006658 yylex_token: -t:=2
+1596705059.006665 cmd_parse_build_commands: 0 bind
+1596705059.006671 cmd_parse_build_commands: argv[0]=-N
+1596705059.006676 cmd_parse_build_commands: argv[1]=Select window 2
+1596705059.006682 cmd_parse_build_commands: argv[2]=2
+1596705059.006687 cmd_parse_build_commands: argv[3]=select-window
+1596705059.006692 cmd_parse_build_commands: argv[4]=-t:=2
+1596705059.006698 cmd_parse: bind-key: argv[0]=bind
+1596705059.006703 cmd_parse: bind-key: argv[1]=-N
+1596705059.006708 cmd_parse: bind-key: argv[2]=Select window 2
+1596705059.006713 cmd_parse: bind-key: argv[3]=2
+1596705059.006719 cmd_parse: bind-key: argv[4]=select-window
+1596705059.006724 cmd_parse: bind-key: argv[5]=-t:=2
+1596705059.006737 cmd_parse_build_commands: bind-key -N "Select window 2" 2 select-window -t:=2
+1596705059.006744 cmdq_get_command: [bind-key/0xaaaaf7de7e60] group 62
+1596705059.006750 cmdq_append <global>: [bind-key/0xaaaaf7de7e60]
+1596705059.006756 yylex_token: bind
+1596705059.006762 yylex_token: -N
+1596705059.006768 yylex_token: Select window 3
+1596705059.006773 yylex_token: 3
+1596705059.006779 yylex_token: select-window
+1596705059.006784 yylex_token: -t:=3
+1596705059.006791 cmd_parse_build_commands: 0 bind
+1596705059.006797 cmd_parse_build_commands: argv[0]=-N
+1596705059.006802 cmd_parse_build_commands: argv[1]=Select window 3
+1596705059.006808 cmd_parse_build_commands: argv[2]=3
+1596705059.006813 cmd_parse_build_commands: argv[3]=select-window
+1596705059.006818 cmd_parse_build_commands: argv[4]=-t:=3
+1596705059.006824 cmd_parse: bind-key: argv[0]=bind
+1596705059.006829 cmd_parse: bind-key: argv[1]=-N
+1596705059.006835 cmd_parse: bind-key: argv[2]=Select window 3
+1596705059.006840 cmd_parse: bind-key: argv[3]=3
+1596705059.006845 cmd_parse: bind-key: argv[4]=select-window
+1596705059.006850 cmd_parse: bind-key: argv[5]=-t:=3
+1596705059.006872 cmd_parse_build_commands: bind-key -N "Select window 3" 3 select-window -t:=3
+1596705059.006879 cmdq_get_command: [bind-key/0xaaaaf7de8170] group 65
+1596705059.006885 cmdq_append <global>: [bind-key/0xaaaaf7de8170]
+1596705059.006891 yylex_token: bind
+1596705059.006896 yylex_token: -N
+1596705059.006902 yylex_token: Select window 4
+1596705059.006907 yylex_token: 4
+1596705059.006913 yylex_token: select-window
+1596705059.006918 yylex_token: -t:=4
+1596705059.006925 cmd_parse_build_commands: 0 bind
+1596705059.006931 cmd_parse_build_commands: argv[0]=-N
+1596705059.006936 cmd_parse_build_commands: argv[1]=Select window 4
+1596705059.006941 cmd_parse_build_commands: argv[2]=4
+1596705059.006946 cmd_parse_build_commands: argv[3]=select-window
+1596705059.006951 cmd_parse_build_commands: argv[4]=-t:=4
+1596705059.006957 cmd_parse: bind-key: argv[0]=bind
+1596705059.006962 cmd_parse: bind-key: argv[1]=-N
+1596705059.006967 cmd_parse: bind-key: argv[2]=Select window 4
+1596705059.006973 cmd_parse: bind-key: argv[3]=4
+1596705059.006978 cmd_parse: bind-key: argv[4]=select-window
+1596705059.006983 cmd_parse: bind-key: argv[5]=-t:=4
+1596705059.006995 cmd_parse_build_commands: bind-key -N "Select window 4" 4 select-window -t:=4
+1596705059.007002 cmdq_get_command: [bind-key/0xaaaaf7de8690] group 68
+1596705059.007008 cmdq_append <global>: [bind-key/0xaaaaf7de8690]
+1596705059.007019 yylex_token: bind
+1596705059.007025 yylex_token: -N
+1596705059.007031 yylex_token: Select window 5
+1596705059.007036 yylex_token: 5
+1596705059.007042 yylex_token: select-window
+1596705059.007047 yylex_token: -t:=5
+1596705059.007054 cmd_parse_build_commands: 0 bind
+1596705059.007060 cmd_parse_build_commands: argv[0]=-N
+1596705059.007065 cmd_parse_build_commands: argv[1]=Select window 5
+1596705059.007071 cmd_parse_build_commands: argv[2]=5
+1596705059.007076 cmd_parse_build_commands: argv[3]=select-window
+1596705059.007081 cmd_parse_build_commands: argv[4]=-t:=5
+1596705059.007088 cmd_parse: bind-key: argv[0]=bind
+1596705059.007093 cmd_parse: bind-key: argv[1]=-N
+1596705059.007098 cmd_parse: bind-key: argv[2]=Select window 5
+1596705059.007103 cmd_parse: bind-key: argv[3]=5
+1596705059.007108 cmd_parse: bind-key: argv[4]=select-window
+1596705059.007114 cmd_parse: bind-key: argv[5]=-t:=5
+1596705059.007126 cmd_parse_build_commands: bind-key -N "Select window 5" 5 select-window -t:=5
+1596705059.007133 cmdq_get_command: [bind-key/0xaaaaf7de8c10] group 71
+1596705059.007139 cmdq_append <global>: [bind-key/0xaaaaf7de8c10]
+1596705059.007146 yylex_token: bind
+1596705059.007151 yylex_token: -N
+1596705059.007157 yylex_token: Select window 6
+1596705059.007162 yylex_token: 6
+1596705059.007168 yylex_token: select-window
+1596705059.007173 yylex_token: -t:=6
+1596705059.007180 cmd_parse_build_commands: 0 bind
+1596705059.007186 cmd_parse_build_commands: argv[0]=-N
+1596705059.007191 cmd_parse_build_commands: argv[1]=Select window 6
+1596705059.007196 cmd_parse_build_commands: argv[2]=6
+1596705059.007202 cmd_parse_build_commands: argv[3]=select-window
+1596705059.007207 cmd_parse_build_commands: argv[4]=-t:=6
+1596705059.007212 cmd_parse: bind-key: argv[0]=bind
+1596705059.007217 cmd_parse: bind-key: argv[1]=-N
+1596705059.007223 cmd_parse: bind-key: argv[2]=Select window 6
+1596705059.007228 cmd_parse: bind-key: argv[3]=6
+1596705059.007233 cmd_parse: bind-key: argv[4]=select-window
+1596705059.007238 cmd_parse: bind-key: argv[5]=-t:=6
+1596705059.007251 cmd_parse_build_commands: bind-key -N "Select window 6" 6 select-window -t:=6
+1596705059.007258 cmdq_get_command: [bind-key/0xaaaaf7de90a0] group 74
+1596705059.007264 cmdq_append <global>: [bind-key/0xaaaaf7de90a0]
+1596705059.007270 yylex_token: bind
+1596705059.007275 yylex_token: -N
+1596705059.007281 yylex_token: Select window 7
+1596705059.007286 yylex_token: 7
+1596705059.007292 yylex_token: select-window
+1596705059.007298 yylex_token: -t:=7
+1596705059.007304 cmd_parse_build_commands: 0 bind
+1596705059.007310 cmd_parse_build_commands: argv[0]=-N
+1596705059.007315 cmd_parse_build_commands: argv[1]=Select window 7
+1596705059.007320 cmd_parse_build_commands: argv[2]=7
+1596705059.007332 cmd_parse_build_commands: argv[3]=select-window
+1596705059.007337 cmd_parse_build_commands: argv[4]=-t:=7
+1596705059.007343 cmd_parse: bind-key: argv[0]=bind
+1596705059.007348 cmd_parse: bind-key: argv[1]=-N
+1596705059.007353 cmd_parse: bind-key: argv[2]=Select window 7
+1596705059.007358 cmd_parse: bind-key: argv[3]=7
+1596705059.007363 cmd_parse: bind-key: argv[4]=select-window
+1596705059.007369 cmd_parse: bind-key: argv[5]=-t:=7
+1596705059.007381 cmd_parse_build_commands: bind-key -N "Select window 7" 7 select-window -t:=7
+1596705059.007388 cmdq_get_command: [bind-key/0xaaaaf7de9470] group 77
+1596705059.007394 cmdq_append <global>: [bind-key/0xaaaaf7de9470]
+1596705059.007404 yylex_token: bind
+1596705059.007410 yylex_token: -N
+1596705059.007416 yylex_token: Select window 8
+1596705059.007421 yylex_token: 8
+1596705059.007427 yylex_token: select-window
+1596705059.007433 yylex_token: -t:=8
+1596705059.007440 cmd_parse_build_commands: 0 bind
+1596705059.007446 cmd_parse_build_commands: argv[0]=-N
+1596705059.007452 cmd_parse_build_commands: argv[1]=Select window 8
+1596705059.007457 cmd_parse_build_commands: argv[2]=8
+1596705059.007463 cmd_parse_build_commands: argv[3]=select-window
+1596705059.007469 cmd_parse_build_commands: argv[4]=-t:=8
+1596705059.007475 cmd_parse: bind-key: argv[0]=bind
+1596705059.007480 cmd_parse: bind-key: argv[1]=-N
+1596705059.007486 cmd_parse: bind-key: argv[2]=Select window 8
+1596705059.007491 cmd_parse: bind-key: argv[3]=8
+1596705059.007496 cmd_parse: bind-key: argv[4]=select-window
+1596705059.007501 cmd_parse: bind-key: argv[5]=-t:=8
+1596705059.007514 cmd_parse_build_commands: bind-key -N "Select window 8" 8 select-window -t:=8
+1596705059.007522 cmdq_get_command: [bind-key/0xaaaaf7de9a80] group 80
+1596705059.007527 cmdq_append <global>: [bind-key/0xaaaaf7de9a80]
+1596705059.007534 yylex_token: bind
+1596705059.007539 yylex_token: -N
+1596705059.007545 yylex_token: Select window 9
+1596705059.007550 yylex_token: 9
+1596705059.007556 yylex_token: select-window
+1596705059.007561 yylex_token: -t:=9
+1596705059.007568 cmd_parse_build_commands: 0 bind
+1596705059.007573 cmd_parse_build_commands: argv[0]=-N
+1596705059.007579 cmd_parse_build_commands: argv[1]=Select window 9
+1596705059.007584 cmd_parse_build_commands: argv[2]=9
+1596705059.007590 cmd_parse_build_commands: argv[3]=select-window
+1596705059.007595 cmd_parse_build_commands: argv[4]=-t:=9
+1596705059.007602 cmd_parse: bind-key: argv[0]=bind
+1596705059.007608 cmd_parse: bind-key: argv[1]=-N
+1596705059.007613 cmd_parse: bind-key: argv[2]=Select window 9
+1596705059.007619 cmd_parse: bind-key: argv[3]=9
+1596705059.007624 cmd_parse: bind-key: argv[4]=select-window
+1596705059.007630 cmd_parse: bind-key: argv[5]=-t:=9
+1596705059.007643 cmd_parse_build_commands: bind-key -N "Select window 9" 9 select-window -t:=9
+1596705059.007651 cmdq_get_command: [bind-key/0xaaaaf7de9ee0] group 83
+1596705059.007657 cmdq_append <global>: [bind-key/0xaaaaf7de9ee0]
+1596705059.007664 yylex_token: bind
+1596705059.007670 yylex_token: -N
+1596705059.007676 yylex_token: Prompt for a command
+1596705059.007681 yylex_token: :
+1596705059.007687 yylex_token: command-prompt
+1596705059.007695 cmd_parse_build_commands: 0 bind
+1596705059.007700 cmd_parse_build_commands: argv[0]=-N
+1596705059.007706 cmd_parse_build_commands: argv[1]=Prompt for a command
+1596705059.007711 cmd_parse_build_commands: argv[2]=:
+1596705059.007716 cmd_parse_build_commands: argv[3]=command-prompt
+1596705059.007723 cmd_parse: bind-key: argv[0]=bind
+1596705059.007728 cmd_parse: bind-key: argv[1]=-N
+1596705059.007733 cmd_parse: bind-key: argv[2]=Prompt for a command
+1596705059.007738 cmd_parse: bind-key: argv[3]=:
+1596705059.007744 cmd_parse: bind-key: argv[4]=command-prompt
+1596705059.007756 cmd_parse_build_commands: bind-key -N "Prompt for a command" : command-prompt
+1596705059.007763 cmdq_get_command: [bind-key/0xaaaaf7dea150] group 86
+1596705059.007769 cmdq_append <global>: [bind-key/0xaaaaf7dea150]
+1596705059.007775 yylex_token: bind
+1596705059.007781 yylex_token: -N
+1596705059.007793 yylex_token: Move to the previously active pane
+1596705059.007806 yylex_token: ;
+1596705059.007812 yylex_token: last-pane
+1596705059.007819 cmd_parse_build_commands: 0 bind
+1596705059.007825 cmd_parse_build_commands: argv[0]=-N
+1596705059.007831 cmd_parse_build_commands: argv[1]=Move to the previously active pane
+1596705059.007836 cmd_parse_build_commands: argv[2]=;
+1596705059.007841 cmd_parse_build_commands: argv[3]=last-pane
+1596705059.007847 cmd_parse: bind-key: argv[0]=bind
+1596705059.007852 cmd_parse: bind-key: argv[1]=-N
+1596705059.007857 cmd_parse: bind-key: argv[2]=Move to the previously active pane
+1596705059.007862 cmd_parse: bind-key: argv[3]=;
+1596705059.007867 cmd_parse: bind-key: argv[4]=last-pane
+1596705059.007880 cmd_parse_build_commands: bind-key -N "Move to the previously active pane" \\; last-pane
+1596705059.007886 cmdq_get_command: [bind-key/0xaaaaf7dea7a0] group 89
+1596705059.007892 cmdq_append <global>: [bind-key/0xaaaaf7dea7a0]
+1596705059.007898 yylex_token: bind
+1596705059.007903 yylex_token: -N
+1596705059.007911 yylex_token: Choose a paste buffer from a list
+1596705059.007916 yylex_token: =
+1596705059.007922 yylex_token: choose-buffer
+1596705059.007927 yylex_token: -Z
+1596705059.007933 cmd_parse_build_commands: 0 bind
+1596705059.007939 cmd_parse_build_commands: argv[0]=-N
+1596705059.007945 cmd_parse_build_commands: argv[1]=Choose a paste buffer from a list
+1596705059.007950 cmd_parse_build_commands: argv[2]==
+1596705059.007955 cmd_parse_build_commands: argv[3]=choose-buffer
+1596705059.007960 cmd_parse_build_commands: argv[4]=-Z
+1596705059.007966 cmd_parse: bind-key: argv[0]=bind
+1596705059.007971 cmd_parse: bind-key: argv[1]=-N
+1596705059.007976 cmd_parse: bind-key: argv[2]=Choose a paste buffer from a list
+1596705059.007981 cmd_parse: bind-key: argv[3]==
+1596705059.007986 cmd_parse: bind-key: argv[4]=choose-buffer
+1596705059.007991 cmd_parse: bind-key: argv[5]=-Z
+1596705059.008005 cmd_parse_build_commands: bind-key -N "Choose a paste buffer from a list" = choose-buffer -Z
+1596705059.008012 cmdq_get_command: [bind-key/0xaaaaf7deb1b0] group 92
+1596705059.008018 cmdq_append <global>: [bind-key/0xaaaaf7deb1b0]
+1596705059.008024 yylex_token: bind
+1596705059.008029 yylex_token: -N
+1596705059.008035 yylex_token: List key bindings
+1596705059.008040 yylex_token: ?
+1596705059.008046 yylex_token: list-keys
+1596705059.008051 yylex_token: -N
+1596705059.008058 cmd_parse_build_commands: 0 bind
+1596705059.008063 cmd_parse_build_commands: argv[0]=-N
+1596705059.008069 cmd_parse_build_commands: argv[1]=List key bindings
+1596705059.008074 cmd_parse_build_commands: argv[2]=?
+1596705059.008080 cmd_parse_build_commands: argv[3]=list-keys
+1596705059.008085 cmd_parse_build_commands: argv[4]=-N
+1596705059.008091 cmd_parse: bind-key: argv[0]=bind
+1596705059.008097 cmd_parse: bind-key: argv[1]=-N
+1596705059.008103 cmd_parse: bind-key: argv[2]=List key bindings
+1596705059.008108 cmd_parse: bind-key: argv[3]=?
+1596705059.008113 cmd_parse: bind-key: argv[4]=list-keys
+1596705059.008119 cmd_parse: bind-key: argv[5]=-N
+1596705059.008132 cmd_parse_build_commands: bind-key -N "List key bindings" ? list-keys -N
+1596705059.008139 cmdq_get_command: [bind-key/0xaaaaf7deb7f0] group 95
+1596705059.008145 cmdq_append <global>: [bind-key/0xaaaaf7deb7f0]
+1596705059.008157 yylex_token: bind
+1596705059.008163 yylex_token: -N
+1596705059.008169 yylex_token: Choose a client from a list
+1596705059.008175 yylex_token: D
+1596705059.008181 yylex_token: choose-client
+1596705059.008186 yylex_token: -Z
+1596705059.008193 cmd_parse_build_commands: 0 bind
+1596705059.008198 cmd_parse_build_commands: argv[0]=-N
+1596705059.008204 cmd_parse_build_commands: argv[1]=Choose a client from a list
+1596705059.008209 cmd_parse_build_commands: argv[2]=D
+1596705059.008215 cmd_parse_build_commands: argv[3]=choose-client
+1596705059.008220 cmd_parse_build_commands: argv[4]=-Z
+1596705059.008226 cmd_parse: bind-key: argv[0]=bind
+1596705059.008231 cmd_parse: bind-key: argv[1]=-N
+1596705059.008236 cmd_parse: bind-key: argv[2]=Choose a client from a list
+1596705059.008241 cmd_parse: bind-key: argv[3]=D
+1596705059.008254 cmd_parse: bind-key: argv[4]=choose-client
+1596705059.008260 cmd_parse: bind-key: argv[5]=-Z
+1596705059.008273 cmd_parse_build_commands: bind-key -N "Choose a client from a list" D choose-client -Z
+1596705059.008280 cmdq_get_command: [bind-key/0xaaaaf7debd10] group 98
+1596705059.008285 cmdq_append <global>: [bind-key/0xaaaaf7debd10]
+1596705059.008292 yylex_token: bind
+1596705059.008334 yylex_token: -N
+1596705059.008352 yylex_token: Spread panes out evenly
+1596705059.008358 yylex_token: E
+1596705059.008364 yylex_token: select-layout
+1596705059.008369 yylex_token: -E
+1596705059.008376 cmd_parse_build_commands: 0 bind
+1596705059.008382 cmd_parse_build_commands: argv[0]=-N
+1596705059.008387 cmd_parse_build_commands: argv[1]=Spread panes out evenly
+1596705059.008393 cmd_parse_build_commands: argv[2]=E
+1596705059.008398 cmd_parse_build_commands: argv[3]=select-layout
+1596705059.008403 cmd_parse_build_commands: argv[4]=-E
+1596705059.008409 cmd_parse: bind-key: argv[0]=bind
+1596705059.008414 cmd_parse: bind-key: argv[1]=-N
+1596705059.008419 cmd_parse: bind-key: argv[2]=Spread panes out evenly
+1596705059.008424 cmd_parse: bind-key: argv[3]=E
+1596705059.008430 cmd_parse: bind-key: argv[4]=select-layout
+1596705059.008435 cmd_parse: bind-key: argv[5]=-E
+1596705059.008447 cmd_parse_build_commands: bind-key -N "Spread panes out evenly" E select-layout -E
+1596705059.008455 cmdq_get_command: [bind-key/0xaaaaf7dec340] group 101
+1596705059.008460 cmdq_append <global>: [bind-key/0xaaaaf7dec340]
+1596705059.008471 yylex_token: bind
+1596705059.008477 yylex_token: -N
+1596705059.008484 yylex_token: Switch to the last client
+1596705059.008489 yylex_token: L
+1596705059.008495 yylex_token: switch-client
+1596705059.008500 yylex_token: -l
+1596705059.008507 cmd_parse_build_commands: 0 bind
+1596705059.008512 cmd_parse_build_commands: argv[0]=-N
+1596705059.008518 cmd_parse_build_commands: argv[1]=Switch to the last client
+1596705059.008523 cmd_parse_build_commands: argv[2]=L
+1596705059.008528 cmd_parse_build_commands: argv[3]=switch-client
+1596705059.008533 cmd_parse_build_commands: argv[4]=-l
+1596705059.008539 cmd_parse: bind-key: argv[0]=bind
+1596705059.008544 cmd_parse: bind-key: argv[1]=-N
+1596705059.008550 cmd_parse: bind-key: argv[2]=Switch to the last client
+1596705059.008555 cmd_parse: bind-key: argv[3]=L
+1596705059.008560 cmd_parse: bind-key: argv[4]=switch-client
+1596705059.008566 cmd_parse: bind-key: argv[5]=-l
+1596705059.008579 cmd_parse_build_commands: bind-key -N "Switch to the last client" L switch-client -l
+1596705059.008586 cmdq_get_command: [bind-key/0xaaaaf7decad0] group 104
+1596705059.008591 cmdq_append <global>: [bind-key/0xaaaaf7decad0]
+1596705059.008598 yylex_token: bind
+1596705059.008603 yylex_token: -N
+1596705059.008609 yylex_token: Clear the marked pane
+1596705059.008614 yylex_token: M
+1596705059.008620 yylex_token: select-pane
+1596705059.008625 yylex_token: -M
+1596705059.008632 cmd_parse_build_commands: 0 bind
+1596705059.008638 cmd_parse_build_commands: argv[0]=-N
+1596705059.008644 cmd_parse_build_commands: argv[1]=Clear the marked pane
+1596705059.008649 cmd_parse_build_commands: argv[2]=M
+1596705059.008654 cmd_parse_build_commands: argv[3]=select-pane
+1596705059.008660 cmd_parse_build_commands: argv[4]=-M
+1596705059.008665 cmd_parse: bind-key: argv[0]=bind
+1596705059.008671 cmd_parse: bind-key: argv[1]=-N
+1596705059.008676 cmd_parse: bind-key: argv[2]=Clear the marked pane
+1596705059.008681 cmd_parse: bind-key: argv[3]=M
+1596705059.008687 cmd_parse: bind-key: argv[4]=select-pane
+1596705059.008692 cmd_parse: bind-key: argv[5]=-M
+1596705059.008705 cmd_parse_build_commands: bind-key -N "Clear the marked pane" M select-pane -M
+1596705059.008713 cmdq_get_command: [bind-key/0xaaaaf7ded200] group 107
+1596705059.008719 cmdq_append <global>: [bind-key/0xaaaaf7ded200]
+1596705059.008725 yylex_token: bind
+1596705059.008731 yylex_token: -N
+1596705059.008737 yylex_token: Enter copy mode
+1596705059.008741 yylex_token: [
+1596705059.008747 yylex_token: copy-mode
+1596705059.008754 cmd_parse_build_commands: 0 bind
+1596705059.008766 cmd_parse_build_commands: argv[0]=-N
+1596705059.008772 cmd_parse_build_commands: argv[1]=Enter copy mode
+1596705059.008777 cmd_parse_build_commands: argv[2]=[
+1596705059.008782 cmd_parse_build_commands: argv[3]=copy-mode
+1596705059.008788 cmd_parse: bind-key: argv[0]=bind
+1596705059.008806 cmd_parse: bind-key: argv[1]=-N
+1596705059.008816 cmd_parse: bind-key: argv[2]=Enter copy mode
+1596705059.008822 cmd_parse: bind-key: argv[3]=[
+1596705059.008828 cmd_parse: bind-key: argv[4]=copy-mode
+1596705059.008841 cmd_parse_build_commands: bind-key -N "Enter copy mode" [ copy-mode
+1596705059.008849 cmdq_get_command: [bind-key/0xaaaaf7ded660] group 110
+1596705059.008855 cmdq_append <global>: [bind-key/0xaaaaf7ded660]
+1596705059.008867 yylex_token: bind
+1596705059.008873 yylex_token: -N
+1596705059.008881 yylex_token: Paste the most recent paste buffer
+1596705059.008886 yylex_token: ]
+1596705059.008892 yylex_token: paste-buffer
+1596705059.008899 cmd_parse_build_commands: 0 bind
+1596705059.008904 cmd_parse_build_commands: argv[0]=-N
+1596705059.008910 cmd_parse_build_commands: argv[1]=Paste the most recent paste buffer
+1596705059.008915 cmd_parse_build_commands: argv[2]=]
+1596705059.008920 cmd_parse_build_commands: argv[3]=paste-buffer
+1596705059.008926 cmd_parse: bind-key: argv[0]=bind
+1596705059.008931 cmd_parse: bind-key: argv[1]=-N
+1596705059.008937 cmd_parse: bind-key: argv[2]=Paste the most recent paste buffer
+1596705059.008942 cmd_parse: bind-key: argv[3]=]
+1596705059.008947 cmd_parse: bind-key: argv[4]=paste-buffer
+1596705059.008959 cmd_parse_build_commands: bind-key -N "Paste the most recent paste buffer" ] paste-buffer
+1596705059.008966 cmdq_get_command: [bind-key/0xaaaaf7deda70] group 113
+1596705059.008972 cmdq_append <global>: [bind-key/0xaaaaf7deda70]
+1596705059.008978 yylex_token: bind
+1596705059.008983 yylex_token: -N
+1596705059.008990 yylex_token: Create a new window
+1596705059.008995 yylex_token: c
+1596705059.009000 yylex_token: new-window
+1596705059.009007 cmd_parse_build_commands: 0 bind
+1596705059.009013 cmd_parse_build_commands: argv[0]=-N
+1596705059.009018 cmd_parse_build_commands: argv[1]=Create a new window
+1596705059.009023 cmd_parse_build_commands: argv[2]=c
+1596705059.009028 cmd_parse_build_commands: argv[3]=new-window
+1596705059.009034 cmd_parse: bind-key: argv[0]=bind
+1596705059.009040 cmd_parse: bind-key: argv[1]=-N
+1596705059.009045 cmd_parse: bind-key: argv[2]=Create a new window
+1596705059.009050 cmd_parse: bind-key: argv[3]=c
+1596705059.009055 cmd_parse: bind-key: argv[4]=new-window
+1596705059.009067 cmd_parse_build_commands: bind-key -N "Create a new window" c new-window
+1596705059.009074 cmdq_get_command: [bind-key/0xaaaaf7dee020] group 116
+1596705059.009080 cmdq_append <global>: [bind-key/0xaaaaf7dee020]
+1596705059.009086 yylex_token: bind
+1596705059.009091 yylex_token: -N
+1596705059.009098 yylex_token: Detach the current client
+1596705059.009103 yylex_token: d
+1596705059.009109 yylex_token: detach-client
+1596705059.009116 cmd_parse_build_commands: 0 bind
+1596705059.009121 cmd_parse_build_commands: argv[0]=-N
+1596705059.009127 cmd_parse_build_commands: argv[1]=Detach the current client
+1596705059.009132 cmd_parse_build_commands: argv[2]=d
+1596705059.009138 cmd_parse_build_commands: argv[3]=detach-client
+1596705059.009144 cmd_parse: bind-key: argv[0]=bind
+1596705059.009149 cmd_parse: bind-key: argv[1]=-N
+1596705059.009154 cmd_parse: bind-key: argv[2]=Detach the current client
+1596705059.009159 cmd_parse: bind-key: argv[3]=d
+1596705059.009165 cmd_parse: bind-key: argv[4]=detach-client
+1596705059.009177 cmd_parse_build_commands: bind-key -N "Detach the current client" d detach-client
+1596705059.009184 cmdq_get_command: [bind-key/0xaaaaf7dee3a0] group 119
+1596705059.009189 cmdq_append <global>: [bind-key/0xaaaaf7dee3a0]
+1596705059.009200 yylex_token: bind
+1596705059.009206 yylex_token: -N
+1596705059.009212 yylex_token: Search for a pane
+1596705059.009217 yylex_token: f
+1596705059.009223 yylex_token: command-prompt
+1596705059.009230 yylex_token: find-window -Z -- '%%'
+1596705059.009243 cmd_parse_build_commands: 0 bind
+1596705059.009248 cmd_parse_build_commands: argv[0]=-N
+1596705059.009254 cmd_parse_build_commands: argv[1]=Search for a pane
+1596705059.009259 cmd_parse_build_commands: argv[2]=f
+1596705059.009264 cmd_parse_build_commands: argv[3]=command-prompt
+1596705059.009270 cmd_parse_build_commands: argv[4]=find-window -Z -- '%%'
+1596705059.009276 cmd_parse: bind-key: argv[0]=bind
+1596705059.009281 cmd_parse: bind-key: argv[1]=-N
+1596705059.009286 cmd_parse: bind-key: argv[2]=Search for a pane
+1596705059.009291 cmd_parse: bind-key: argv[3]=f
+1596705059.009296 cmd_parse: bind-key: argv[4]=command-prompt
+1596705059.009302 cmd_parse: bind-key: argv[5]=find-window -Z -- '%%'
+1596705059.009316 cmd_parse_build_commands: bind-key -N "Search for a pane" f command-prompt "find-window -Z -- '%%'"
+1596705059.009323 cmdq_get_command: [bind-key/0xaaaaf7dee8f0] group 122
+1596705059.009329 cmdq_append <global>: [bind-key/0xaaaaf7dee8f0]
+1596705059.009335 yylex_token: bind
+1596705059.009340 yylex_token: -N
+1596705059.009347 yylex_token: Display window information
+1596705059.009352 yylex_token: i
+1596705059.009358 yylex_token: display-message
+1596705059.009365 cmd_parse_build_commands: 0 bind
+1596705059.009370 cmd_parse_build_commands: argv[0]=-N
+1596705059.009376 cmd_parse_build_commands: argv[1]=Display window information
+1596705059.009381 cmd_parse_build_commands: argv[2]=i
+1596705059.009386 cmd_parse_build_commands: argv[3]=display-message
+1596705059.009392 cmd_parse: bind-key: argv[0]=bind
+1596705059.009397 cmd_parse: bind-key: argv[1]=-N
+1596705059.009403 cmd_parse: bind-key: argv[2]=Display window information
+1596705059.009408 cmd_parse: bind-key: argv[3]=i
+1596705059.009413 cmd_parse: bind-key: argv[4]=display-message
+1596705059.009424 cmd_parse_build_commands: bind-key -N "Display window information" i display-message
+1596705059.009432 cmdq_get_command: [bind-key/0xaaaaf7deecf0] group 125
+1596705059.009437 cmdq_append <global>: [bind-key/0xaaaaf7deecf0]
+1596705059.009444 yylex_token: bind
+1596705059.009449 yylex_token: -N
+1596705059.009456 yylex_token: Select the previously current window
+1596705059.009462 yylex_token: l
+1596705059.009467 yylex_token: last-window
+1596705059.009474 cmd_parse_build_commands: 0 bind
+1596705059.009480 cmd_parse_build_commands: argv[0]=-N
+1596705059.009486 cmd_parse_build_commands: argv[1]=Select the previously current window
+1596705059.009491 cmd_parse_build_commands: argv[2]=l
+1596705059.009496 cmd_parse_build_commands: argv[3]=last-window
+1596705059.009502 cmd_parse: bind-key: argv[0]=bind
+1596705059.009507 cmd_parse: bind-key: argv[1]=-N
+1596705059.009513 cmd_parse: bind-key: argv[2]=Select the previously current window
+1596705059.009518 cmd_parse: bind-key: argv[3]=l
+1596705059.009523 cmd_parse: bind-key: argv[4]=last-window
+1596705059.009535 cmd_parse_build_commands: bind-key -N "Select the previously current window" l last-window
+1596705059.009542 cmdq_get_command: [bind-key/0xaaaaf7def080] group 128
+1596705059.009548 cmdq_append <global>: [bind-key/0xaaaaf7def080]
+1596705059.009554 yylex_token: bind
+1596705059.009559 yylex_token: -N
+1596705059.009566 yylex_token: Toggle the marked pane
+1596705059.009571 yylex_token: m
+1596705059.009576 yylex_token: select-pane
+1596705059.009581 yylex_token: -m
+1596705059.009588 cmd_parse_build_commands: 0 bind
+1596705059.009594 cmd_parse_build_commands: argv[0]=-N
+1596705059.009599 cmd_parse_build_commands: argv[1]=Toggle the marked pane
+1596705059.009604 cmd_parse_build_commands: argv[2]=m
+1596705059.009609 cmd_parse_build_commands: argv[3]=select-pane
+1596705059.009615 cmd_parse_build_commands: argv[4]=-m
+1596705059.009620 cmd_parse: bind-key: argv[0]=bind
+1596705059.009625 cmd_parse: bind-key: argv[1]=-N
+1596705059.009631 cmd_parse: bind-key: argv[2]=Toggle the marked pane
+1596705059.009636 cmd_parse: bind-key: argv[3]=m
+1596705059.009641 cmd_parse: bind-key: argv[4]=select-pane
+1596705059.009646 cmd_parse: bind-key: argv[5]=-m
+1596705059.009658 cmd_parse_build_commands: bind-key -N "Toggle the marked pane" m select-pane -m
+1596705059.009675 cmdq_get_command: [bind-key/0xaaaaf7def7f0] group 131
+1596705059.009681 cmdq_append <global>: [bind-key/0xaaaaf7def7f0]
+1596705059.009692 yylex_token: bind
+1596705059.009698 yylex_token: -N
+1596705059.009704 yylex_token: Select the next window
+1596705059.009709 yylex_token: n
+1596705059.009715 yylex_token: next-window
+1596705059.009721 cmd_parse_build_commands: 0 bind
+1596705059.009727 cmd_parse_build_commands: argv[0]=-N
+1596705059.009733 cmd_parse_build_commands: argv[1]=Select the next window
+1596705059.009738 cmd_parse_build_commands: argv[2]=n
+1596705059.009743 cmd_parse_build_commands: argv[3]=next-window
+1596705059.009748 cmd_parse: bind-key: argv[0]=bind
+1596705059.009754 cmd_parse: bind-key: argv[1]=-N
+1596705059.009759 cmd_parse: bind-key: argv[2]=Select the next window
+1596705059.009764 cmd_parse: bind-key: argv[3]=n
+1596705059.009769 cmd_parse: bind-key: argv[4]=next-window
+1596705059.009781 cmd_parse_build_commands: bind-key -N "Select the next window" n next-window
+1596705059.009788 cmdq_get_command: [bind-key/0xaaaaf7defb50] group 134
+1596705059.009794 cmdq_append <global>: [bind-key/0xaaaaf7defb50]
+1596705059.009800 yylex_token: bind
+1596705059.009805 yylex_token: -N
+1596705059.009811 yylex_token: Select the next pane
+1596705059.009817 yylex_token: o
+1596705059.009822 yylex_token: select-pane
+1596705059.009828 yylex_token: -t:.+
+1596705059.009834 cmd_parse_build_commands: 0 bind
+1596705059.009840 cmd_parse_build_commands: argv[0]=-N
+1596705059.009845 cmd_parse_build_commands: argv[1]=Select the next pane
+1596705059.009850 cmd_parse_build_commands: argv[2]=o
+1596705059.009855 cmd_parse_build_commands: argv[3]=select-pane
+1596705059.009860 cmd_parse_build_commands: argv[4]=-t:.+
+1596705059.009866 cmd_parse: bind-key: argv[0]=bind
+1596705059.009871 cmd_parse: bind-key: argv[1]=-N
+1596705059.009877 cmd_parse: bind-key: argv[2]=Select the next pane
+1596705059.009882 cmd_parse: bind-key: argv[3]=o
+1596705059.009887 cmd_parse: bind-key: argv[4]=select-pane
+1596705059.009892 cmd_parse: bind-key: argv[5]=-t:.+
+1596705059.009905 cmd_parse_build_commands: bind-key -N "Select the next pane" o select-pane -t:.+
+1596705059.009912 cmdq_get_command: [bind-key/0xaaaaf7deffe0] group 137
+1596705059.009917 cmdq_append <global>: [bind-key/0xaaaaf7deffe0]
+1596705059.009924 yylex_token: bind
+1596705059.009930 yylex_token: -N
+1596705059.009936 yylex_token: Select the previous pane
+1596705059.009941 yylex_token: p
+1596705059.009947 yylex_token: previous-window
+1596705059.009954 cmd_parse_build_commands: 0 bind
+1596705059.009959 cmd_parse_build_commands: argv[0]=-N
+1596705059.009965 cmd_parse_build_commands: argv[1]=Select the previous pane
+1596705059.009970 cmd_parse_build_commands: argv[2]=p
+1596705059.009976 cmd_parse_build_commands: argv[3]=previous-window
+1596705059.009981 cmd_parse: bind-key: argv[0]=bind
+1596705059.009986 cmd_parse: bind-key: argv[1]=-N
+1596705059.009992 cmd_parse: bind-key: argv[2]=Select the previous pane
+1596705059.009997 cmd_parse: bind-key: argv[3]=p
+1596705059.010003 cmd_parse: bind-key: argv[4]=previous-window
+1596705059.010014 cmd_parse_build_commands: bind-key -N "Select the previous pane" p previous-window
+1596705059.010022 cmdq_get_command: [bind-key/0xaaaaf7df0310] group 140
+1596705059.010027 cmdq_append <global>: [bind-key/0xaaaaf7df0310]
+1596705059.010074 yylex_token: bind
+1596705059.010081 yylex_token: -N
+1596705059.010088 yylex_token: Display pane numbers
+1596705059.010093 yylex_token: q
+1596705059.010099 yylex_token: display-panes
+1596705059.010115 cmd_parse_build_commands: 0 bind
+1596705059.010122 cmd_parse_build_commands: argv[0]=-N
+1596705059.010127 cmd_parse_build_commands: argv[1]=Display pane numbers
+1596705059.010133 cmd_parse_build_commands: argv[2]=q
+1596705059.010138 cmd_parse_build_commands: argv[3]=display-panes
+1596705059.010144 cmd_parse: bind-key: argv[0]=bind
+1596705059.010150 cmd_parse: bind-key: argv[1]=-N
+1596705059.010156 cmd_parse: bind-key: argv[2]=Display pane numbers
+1596705059.010161 cmd_parse: bind-key: argv[3]=q
+1596705059.010166 cmd_parse: bind-key: argv[4]=display-panes
+1596705059.010185 cmd_parse_build_commands: bind-key -N "Display pane numbers" q display-panes
+1596705059.010193 cmdq_get_command: [bind-key/0xaaaaf7df0400] group 143
+1596705059.010199 cmdq_append <global>: [bind-key/0xaaaaf7df0400]
+1596705059.010205 yylex_token: bind
+1596705059.010210 yylex_token: -N
+1596705059.010217 yylex_token: Redraw the current client
+1596705059.010222 yylex_token: r
+1596705059.010228 yylex_token: refresh-client
+1596705059.010235 cmd_parse_build_commands: 0 bind
+1596705059.010241 cmd_parse_build_commands: argv[0]=-N
+1596705059.010247 cmd_parse_build_commands: argv[1]=Redraw the current client
+1596705059.010252 cmd_parse_build_commands: argv[2]=r
+1596705059.010258 cmd_parse_build_commands: argv[3]=refresh-client
+1596705059.010264 cmd_parse: bind-key: argv[0]=bind
+1596705059.010269 cmd_parse: bind-key: argv[1]=-N
+1596705059.010274 cmd_parse: bind-key: argv[2]=Redraw the current client
+1596705059.010280 cmd_parse: bind-key: argv[3]=r
+1596705059.010285 cmd_parse: bind-key: argv[4]=refresh-client
+1596705059.010297 cmd_parse_build_commands: bind-key -N "Redraw the current client" r refresh-client
+1596705059.010304 cmdq_get_command: [bind-key/0xaaaaf7df0940] group 146
+1596705059.010310 cmdq_append <global>: [bind-key/0xaaaaf7df0940]
+1596705059.010316 yylex_token: bind
+1596705059.010321 yylex_token: -N
+1596705059.010328 yylex_token: Choose a session from a list
+1596705059.010333 yylex_token: s
+1596705059.010339 yylex_token: choose-tree
+1596705059.010344 yylex_token: -Zs
+1596705059.010351 cmd_parse_build_commands: 0 bind
+1596705059.010357 cmd_parse_build_commands: argv[0]=-N
+1596705059.010363 cmd_parse_build_commands: argv[1]=Choose a session from a list
+1596705059.010368 cmd_parse_build_commands: argv[2]=s
+1596705059.010373 cmd_parse_build_commands: argv[3]=choose-tree
+1596705059.010378 cmd_parse_build_commands: argv[4]=-Zs
+1596705059.010384 cmd_parse: bind-key: argv[0]=bind
+1596705059.010389 cmd_parse: bind-key: argv[1]=-N
+1596705059.010395 cmd_parse: bind-key: argv[2]=Choose a session from a list
+1596705059.010400 cmd_parse: bind-key: argv[3]=s
+1596705059.010405 cmd_parse: bind-key: argv[4]=choose-tree
+1596705059.010410 cmd_parse: bind-key: argv[5]=-Zs
+1596705059.010423 cmd_parse_build_commands: bind-key -N "Choose a session from a list" s choose-tree -Zs
+1596705059.010430 cmdq_get_command: [bind-key/0xaaaaf7df1000] group 149
+1596705059.010436 cmdq_append <global>: [bind-key/0xaaaaf7df1000]
+1596705059.010442 yylex_token: bind
+1596705059.010447 yylex_token: -N
+1596705059.010453 yylex_token: Show a clock
+1596705059.010458 yylex_token: t
+1596705059.010463 yylex_token: clock-mode
+1596705059.010471 cmd_parse_build_commands: 0 bind
+1596705059.010477 cmd_parse_build_commands: argv[0]=-N
+1596705059.010483 cmd_parse_build_commands: argv[1]=Show a clock
+1596705059.010488 cmd_parse_build_commands: argv[2]=t
+1596705059.010493 cmd_parse_build_commands: argv[3]=clock-mode
+1596705059.010499 cmd_parse: bind-key: argv[0]=bind
+1596705059.010505 cmd_parse: bind-key: argv[1]=-N
+1596705059.010511 cmd_parse: bind-key: argv[2]=Show a clock
+1596705059.010517 cmd_parse: bind-key: argv[3]=t
+1596705059.010523 cmd_parse: bind-key: argv[4]=clock-mode
+1596705059.010535 cmd_parse_build_commands: bind-key -N "Show a clock" t clock-mode
+1596705059.010545 cmdq_get_command: [bind-key/0xaaaaf7df1290] group 152
+1596705059.010551 cmdq_append <global>: [bind-key/0xaaaaf7df1290]
+1596705059.010566 yylex_token: bind
+1596705059.010574 yylex_token: -N
+1596705059.010582 yylex_token: Choose a window from a list
+1596705059.010587 yylex_token: w
+1596705059.010593 yylex_token: choose-tree
+1596705059.010599 yylex_token: -Zw
+1596705059.010608 cmd_parse_build_commands: 0 bind
+1596705059.010614 cmd_parse_build_commands: argv[0]=-N
+1596705059.010620 cmd_parse_build_commands: argv[1]=Choose a window from a list
+1596705059.010625 cmd_parse_build_commands: argv[2]=w
+1596705059.010630 cmd_parse_build_commands: argv[3]=choose-tree
+1596705059.010635 cmd_parse_build_commands: argv[4]=-Zw
+1596705059.010641 cmd_parse: bind-key: argv[0]=bind
+1596705059.010655 cmd_parse: bind-key: argv[1]=-N
+1596705059.010661 cmd_parse: bind-key: argv[2]=Choose a window from a list
+1596705059.010666 cmd_parse: bind-key: argv[3]=w
+1596705059.010672 cmd_parse: bind-key: argv[4]=choose-tree
+1596705059.010677 cmd_parse: bind-key: argv[5]=-Zw
+1596705059.010690 cmd_parse_build_commands: bind-key -N "Choose a window from a list" w choose-tree -Zw
+1596705059.010698 cmdq_get_command: [bind-key/0xaaaaf7df1a40] group 155
+1596705059.010704 cmdq_append <global>: [bind-key/0xaaaaf7df1a40]
+1596705059.010709 yylex_token: bind
+1596705059.010714 yylex_token: -N
+1596705059.010721 yylex_token: Kill the active pane
+1596705059.010726 yylex_token: x
+1596705059.010732 yylex_token: confirm-before
+1596705059.010738 yylex_token: -pkill-pane #P? (y/n)
+1596705059.010744 yylex_token: kill-pane
+1596705059.010751 cmd_parse_build_commands: 0 bind
+1596705059.010757 cmd_parse_build_commands: argv[0]=-N
+1596705059.010763 cmd_parse_build_commands: argv[1]=Kill the active pane
+1596705059.010768 cmd_parse_build_commands: argv[2]=x
+1596705059.010773 cmd_parse_build_commands: argv[3]=confirm-before
+1596705059.010779 cmd_parse_build_commands: argv[4]=-pkill-pane #P? (y/n)
+1596705059.010784 cmd_parse_build_commands: argv[5]=kill-pane
+1596705059.010790 cmd_parse: bind-key: argv[0]=bind
+1596705059.010795 cmd_parse: bind-key: argv[1]=-N
+1596705059.010801 cmd_parse: bind-key: argv[2]=Kill the active pane
+1596705059.010806 cmd_parse: bind-key: argv[3]=x
+1596705059.010811 cmd_parse: bind-key: argv[4]=confirm-before
+1596705059.010817 cmd_parse: bind-key: argv[5]=-pkill-pane #P? (y/n)
+1596705059.010822 cmd_parse: bind-key: argv[6]=kill-pane
+1596705059.010838 cmd_parse_build_commands: bind-key -N "Kill the active pane" x confirm-before "-pkill-pane #P? (y/n)" kill-pane
+1596705059.010846 cmdq_get_command: [bind-key/0xaaaaf7df1eb0] group 158
+1596705059.010852 cmdq_append <global>: [bind-key/0xaaaaf7df1eb0]
+1596705059.010857 yylex_token: bind
+1596705059.010863 yylex_token: -N
+1596705059.010869 yylex_token: Zoom the active pane
+1596705059.010874 yylex_token: z
+1596705059.010880 yylex_token: resize-pane
+1596705059.010885 yylex_token: -Z
+1596705059.010892 cmd_parse_build_commands: 0 bind
+1596705059.010898 cmd_parse_build_commands: argv[0]=-N
+1596705059.010903 cmd_parse_build_commands: argv[1]=Zoom the active pane
+1596705059.010909 cmd_parse_build_commands: argv[2]=z
+1596705059.010914 cmd_parse_build_commands: argv[3]=resize-pane
+1596705059.010919 cmd_parse_build_commands: argv[4]=-Z
+1596705059.010925 cmd_parse: bind-key: argv[0]=bind
+1596705059.010930 cmd_parse: bind-key: argv[1]=-N
+1596705059.010935 cmd_parse: bind-key: argv[2]=Zoom the active pane
+1596705059.010941 cmd_parse: bind-key: argv[3]=z
+1596705059.010946 cmd_parse: bind-key: argv[4]=resize-pane
+1596705059.010951 cmd_parse: bind-key: argv[5]=-Z
+1596705059.010964 cmd_parse_build_commands: bind-key -N "Zoom the active pane" z resize-pane -Z
+1596705059.010972 cmdq_get_command: [bind-key/0xaaaaf7df2110] group 161
+1596705059.010978 cmdq_append <global>: [bind-key/0xaaaaf7df2110]
+1596705059.010983 yylex_token: bind
+1596705059.010989 yylex_token: -N
+1596705059.011000 yylex_token: Swap the active pane with the pane above
+1596705059.011006 yylex_token: {
+1596705059.011012 yylex_token: swap-pane
+1596705059.011017 yylex_token: -U
+1596705059.011024 cmd_parse_build_commands: 0 bind
+1596705059.011030 cmd_parse_build_commands: argv[0]=-N
+1596705059.011036 cmd_parse_build_commands: argv[1]=Swap the active pane with the pane above
+1596705059.011042 cmd_parse_build_commands: argv[2]={
+1596705059.011047 cmd_parse_build_commands: argv[3]=swap-pane
+1596705059.011053 cmd_parse_build_commands: argv[4]=-U
+1596705059.011059 cmd_parse: bind-key: argv[0]=bind
+1596705059.011064 cmd_parse: bind-key: argv[1]=-N
+1596705059.011070 cmd_parse: bind-key: argv[2]=Swap the active pane with the pane above
+1596705059.011075 cmd_parse: bind-key: argv[3]={
+1596705059.011080 cmd_parse: bind-key: argv[4]=swap-pane
+1596705059.011085 cmd_parse: bind-key: argv[5]=-U
+1596705059.011099 cmd_parse_build_commands: bind-key -N "Swap the active pane with the pane above" \\{ swap-pane -U
+1596705059.011112 cmdq_get_command: [bind-key/0xaaaaf7df2bc0] group 164
+1596705059.011119 cmdq_append <global>: [bind-key/0xaaaaf7df2bc0]
+1596705059.011125 yylex_token: bind
+1596705059.011130 yylex_token: -N
+1596705059.011138 yylex_token: Swap the active pane with the pane below
+1596705059.011143 yylex_token: }
+1596705059.011149 yylex_token: swap-pane
+1596705059.011154 yylex_token: -D
+1596705059.011161 cmd_parse_build_commands: 0 bind
+1596705059.011167 cmd_parse_build_commands: argv[0]=-N
+1596705059.011172 cmd_parse_build_commands: argv[1]=Swap the active pane with the pane below
+1596705059.011177 cmd_parse_build_commands: argv[2]=}
+1596705059.011183 cmd_parse_build_commands: argv[3]=swap-pane
+1596705059.011188 cmd_parse_build_commands: argv[4]=-D
+1596705059.011194 cmd_parse: bind-key: argv[0]=bind
+1596705059.011199 cmd_parse: bind-key: argv[1]=-N
+1596705059.011205 cmd_parse: bind-key: argv[2]=Swap the active pane with the pane below
+1596705059.011210 cmd_parse: bind-key: argv[3]=}
+1596705059.011215 cmd_parse: bind-key: argv[4]=swap-pane
+1596705059.011220 cmd_parse: bind-key: argv[5]=-D
+1596705059.011234 cmd_parse_build_commands: bind-key -N "Swap the active pane with the pane below" \\} swap-pane -D
+1596705059.011242 cmdq_get_command: [bind-key/0xaaaaf7df3030] group 167
+1596705059.011248 cmdq_append <global>: [bind-key/0xaaaaf7df3030]
+1596705059.011253 yylex_token: bind
+1596705059.011259 yylex_token: -N
+1596705059.011264 yylex_token: Show messages
+1596705059.011269 yylex_token: ~
+1596705059.011275 yylex_token: show-messages
+1596705059.011282 cmd_parse_build_commands: 0 bind
+1596705059.011287 cmd_parse_build_commands: argv[0]=-N
+1596705059.011293 cmd_parse_build_commands: argv[1]=Show messages
+1596705059.011298 cmd_parse_build_commands: argv[2]=~
+1596705059.011303 cmd_parse_build_commands: argv[3]=show-messages
+1596705059.011309 cmd_parse: bind-key: argv[0]=bind
+1596705059.011315 cmd_parse: bind-key: argv[1]=-N
+1596705059.011320 cmd_parse: bind-key: argv[2]=Show messages
+1596705059.011325 cmd_parse: bind-key: argv[3]=~
+1596705059.011330 cmd_parse: bind-key: argv[4]=show-messages
+1596705059.011343 cmd_parse_build_commands: bind-key -N "Show messages" \\~ show-messages
+1596705059.011350 cmdq_get_command: [bind-key/0xaaaaf7df3380] group 170
+1596705059.011356 cmdq_append <global>: [bind-key/0xaaaaf7df3380]
+1596705059.011366 yylex_token: bind
+1596705059.011371 yylex_token: -N
+1596705059.011378 yylex_token: Enter copy mode and scroll up
+1596705059.011384 yylex_token: PPage
+1596705059.011389 yylex_token: copy-mode
+1596705059.011395 yylex_token: -u
+1596705059.011401 cmd_parse_build_commands: 0 bind
+1596705059.011407 cmd_parse_build_commands: argv[0]=-N
+1596705059.011413 cmd_parse_build_commands: argv[1]=Enter copy mode and scroll up
+1596705059.011419 cmd_parse_build_commands: argv[2]=PPage
+1596705059.011424 cmd_parse_build_commands: argv[3]=copy-mode
+1596705059.011430 cmd_parse_build_commands: argv[4]=-u
+1596705059.011436 cmd_parse: bind-key: argv[0]=bind
+1596705059.011441 cmd_parse: bind-key: argv[1]=-N
+1596705059.011447 cmd_parse: bind-key: argv[2]=Enter copy mode and scroll up
+1596705059.011453 cmd_parse: bind-key: argv[3]=PPage
+1596705059.011458 cmd_parse: bind-key: argv[4]=copy-mode
+1596705059.011463 cmd_parse: bind-key: argv[5]=-u
+1596705059.011477 cmd_parse_build_commands: bind-key -N "Enter copy mode and scroll up" PPage copy-mode -u
+1596705059.011485 cmdq_get_command: [bind-key/0xaaaaf7df3620] group 173
+1596705059.011490 cmdq_append <global>: [bind-key/0xaaaaf7df3620]
+1596705059.011496 yylex_token: bind
+1596705059.011501 yylex_token: -N
+1596705059.011509 yylex_token: Select the pane above the active pane
+1596705059.011515 yylex_token: -r
+1596705059.011520 yylex_token: Up
+1596705059.011525 yylex_token: select-pane
+1596705059.011531 yylex_token: -U
+1596705059.011538 cmd_parse_build_commands: 0 bind
+1596705059.011543 cmd_parse_build_commands: argv[0]=-N
+1596705059.011549 cmd_parse_build_commands: argv[1]=Select the pane above the active pane
+1596705059.011563 cmd_parse_build_commands: argv[2]=-r
+1596705059.011569 cmd_parse_build_commands: argv[3]=Up
+1596705059.011574 cmd_parse_build_commands: argv[4]=select-pane
+1596705059.011580 cmd_parse_build_commands: argv[5]=-U
+1596705059.011586 cmd_parse: bind-key: argv[0]=bind
+1596705059.011591 cmd_parse: bind-key: argv[1]=-N
+1596705059.011597 cmd_parse: bind-key: argv[2]=Select the pane above the active pane
+1596705059.011603 cmd_parse: bind-key: argv[3]=-r
+1596705059.011608 cmd_parse: bind-key: argv[4]=Up
+1596705059.011614 cmd_parse: bind-key: argv[5]=select-pane
+1596705059.011619 cmd_parse: bind-key: argv[6]=-U
+1596705059.011634 cmd_parse_build_commands: bind-key -r -N "Select the pane above the active pane" Up select-pane -U
+1596705059.011642 cmdq_get_command: [bind-key/0xaaaaf7df42c0] group 176
+1596705059.011648 cmdq_append <global>: [bind-key/0xaaaaf7df42c0]
+1596705059.011659 yylex_token: bind
+1596705059.011666 yylex_token: -N
+1596705059.011673 yylex_token: Select the pane below the active pane
+1596705059.011679 yylex_token: -r
+1596705059.011684 yylex_token: Down
+1596705059.011690 yylex_token: select-pane
+1596705059.011695 yylex_token: -D
+1596705059.011703 cmd_parse_build_commands: 0 bind
+1596705059.011708 cmd_parse_build_commands: argv[0]=-N
+1596705059.011714 cmd_parse_build_commands: argv[1]=Select the pane below the active pane
+1596705059.011720 cmd_parse_build_commands: argv[2]=-r
+1596705059.011725 cmd_parse_build_commands: argv[3]=Down
+1596705059.011730 cmd_parse_build_commands: argv[4]=select-pane
+1596705059.011735 cmd_parse_build_commands: argv[5]=-D
+1596705059.011741 cmd_parse: bind-key: argv[0]=bind
+1596705059.011746 cmd_parse: bind-key: argv[1]=-N
+1596705059.011752 cmd_parse: bind-key: argv[2]=Select the pane below the active pane
+1596705059.011758 cmd_parse: bind-key: argv[3]=-r
+1596705059.011763 cmd_parse: bind-key: argv[4]=Down
+1596705059.011768 cmd_parse: bind-key: argv[5]=select-pane
+1596705059.011773 cmd_parse: bind-key: argv[6]=-D
+1596705059.011787 cmd_parse_build_commands: bind-key -r -N "Select the pane below the active pane" Down select-pane -D
+1596705059.011794 cmdq_get_command: [bind-key/0xaaaaf7df1c60] group 179
+1596705059.011800 cmdq_append <global>: [bind-key/0xaaaaf7df1c60]
+1596705059.011806 yylex_token: bind
+1596705059.011811 yylex_token: -N
+1596705059.011820 yylex_token: Select the pane to the left of the active pane
+1596705059.011825 yylex_token: -r
+1596705059.011830 yylex_token: Left
+1596705059.011836 yylex_token: select-pane
+1596705059.011841 yylex_token: -L
+1596705059.011848 cmd_parse_build_commands: 0 bind
+1596705059.011854 cmd_parse_build_commands: argv[0]=-N
+1596705059.011859 cmd_parse_build_commands: argv[1]=Select the pane to the left of the active pane
+1596705059.011865 cmd_parse_build_commands: argv[2]=-r
+1596705059.011870 cmd_parse_build_commands: argv[3]=Left
+1596705059.011875 cmd_parse_build_commands: argv[4]=select-pane
+1596705059.011881 cmd_parse_build_commands: argv[5]=-L
+1596705059.011886 cmd_parse: bind-key: argv[0]=bind
+1596705059.011892 cmd_parse: bind-key: argv[1]=-N
+1596705059.011898 cmd_parse: bind-key: argv[2]=Select the pane to the left of the active pane
+1596705059.011903 cmd_parse: bind-key: argv[3]=-r
+1596705059.011908 cmd_parse: bind-key: argv[4]=Left
+1596705059.011914 cmd_parse: bind-key: argv[5]=select-pane
+1596705059.011919 cmd_parse: bind-key: argv[6]=-L
+1596705059.011934 cmd_parse_build_commands: bind-key -r -N "Select the pane to the left of the active pane" Left select-pane -L
+1596705059.011942 cmdq_get_command: [bind-key/0xaaaaf7df53e0] group 182
+1596705059.011947 cmdq_append <global>: [bind-key/0xaaaaf7df53e0]
+1596705059.011958 yylex_token: bind
+1596705059.011964 yylex_token: -N
+1596705059.011972 yylex_token: Select the pane to the right of the active pane
+1596705059.011978 yylex_token: -r
+1596705059.011983 yylex_token: Right
+1596705059.011989 yylex_token: select-pane
+1596705059.011994 yylex_token: -R
+1596705059.012001 cmd_parse_build_commands: 0 bind
+1596705059.012006 cmd_parse_build_commands: argv[0]=-N
+1596705059.012012 cmd_parse_build_commands: argv[1]=Select the pane to the right of the active pane
+1596705059.012023 cmd_parse_build_commands: argv[2]=-r
+1596705059.012029 cmd_parse_build_commands: argv[3]=Right
+1596705059.012034 cmd_parse_build_commands: argv[4]=select-pane
+1596705059.012040 cmd_parse_build_commands: argv[5]=-R
+1596705059.012045 cmd_parse: bind-key: argv[0]=bind
+1596705059.012050 cmd_parse: bind-key: argv[1]=-N
+1596705059.012057 cmd_parse: bind-key: argv[2]=Select the pane to the right of the active pane
+1596705059.012062 cmd_parse: bind-key: argv[3]=-r
+1596705059.012067 cmd_parse: bind-key: argv[4]=Right
+1596705059.012072 cmd_parse: bind-key: argv[5]=select-pane
+1596705059.012077 cmd_parse: bind-key: argv[6]=-R
+1596705059.012093 cmd_parse_build_commands: bind-key -r -N "Select the pane to the right of the active pane" Right select-pane -R
+1596705059.012101 cmdq_get_command: [bind-key/0xaaaaf7df4ae0] group 185
+1596705059.012107 cmdq_append <global>: [bind-key/0xaaaaf7df4ae0]
+1596705059.012113 yylex_token: bind
+1596705059.012118 yylex_token: -N
+1596705059.012125 yylex_token: Set the even-horizontal layout
+1596705059.012131 yylex_token: M-1
+1596705059.012136 yylex_token: select-layout
+1596705059.012142 yylex_token: even-horizontal
+1596705059.012149 cmd_parse_build_commands: 0 bind
+1596705059.012155 cmd_parse_build_commands: argv[0]=-N
+1596705059.012161 cmd_parse_build_commands: argv[1]=Set the even-horizontal layout
+1596705059.012166 cmd_parse_build_commands: argv[2]=M-1
+1596705059.012171 cmd_parse_build_commands: argv[3]=select-layout
+1596705059.012177 cmd_parse_build_commands: argv[4]=even-horizontal
+1596705059.012183 cmd_parse: bind-key: argv[0]=bind
+1596705059.012188 cmd_parse: bind-key: argv[1]=-N
+1596705059.012194 cmd_parse: bind-key: argv[2]=Set the even-horizontal layout
+1596705059.012199 cmd_parse: bind-key: argv[3]=M-1
+1596705059.012204 cmd_parse: bind-key: argv[4]=select-layout
+1596705059.012210 cmd_parse: bind-key: argv[5]=even-horizontal
+1596705059.012224 cmd_parse_build_commands: bind-key -N "Set the even-horizontal layout" M-1 select-layout even-horizontal
+1596705059.012232 cmdq_get_command: [bind-key/0xaaaaf7df5c60] group 188
+1596705059.012238 cmdq_append <global>: [bind-key/0xaaaaf7df5c60]
+1596705059.012244 yylex_token: bind
+1596705059.012249 yylex_token: -N
+1596705059.012256 yylex_token: Set the even-vertical layout
+1596705059.012261 yylex_token: M-2
+1596705059.012267 yylex_token: select-layout
+1596705059.012273 yylex_token: even-vertical
+1596705059.012280 cmd_parse_build_commands: 0 bind
+1596705059.012285 cmd_parse_build_commands: argv[0]=-N
+1596705059.012291 cmd_parse_build_commands: argv[1]=Set the even-vertical layout
+1596705059.012297 cmd_parse_build_commands: argv[2]=M-2
+1596705059.012302 cmd_parse_build_commands: argv[3]=select-layout
+1596705059.012308 cmd_parse_build_commands: argv[4]=even-vertical
+1596705059.012314 cmd_parse: bind-key: argv[0]=bind
+1596705059.012319 cmd_parse: bind-key: argv[1]=-N
+1596705059.012325 cmd_parse: bind-key: argv[2]=Set the even-vertical layout
+1596705059.012330 cmd_parse: bind-key: argv[3]=M-2
+1596705059.012335 cmd_parse: bind-key: argv[4]=select-layout
+1596705059.012341 cmd_parse: bind-key: argv[5]=even-vertical
+1596705059.012354 cmd_parse_build_commands: bind-key -N "Set the even-vertical layout" M-2 select-layout even-vertical
+1596705059.012362 cmdq_get_command: [bind-key/0xaaaaf7df6400] group 191
+1596705059.012368 cmdq_append <global>: [bind-key/0xaaaaf7df6400]
+1596705059.012378 yylex_token: bind
+1596705059.012384 yylex_token: -N
+1596705059.012391 yylex_token: Set the main-horizontal layout
+1596705059.012396 yylex_token: M-3
+1596705059.012402 yylex_token: select-layout
+1596705059.012408 yylex_token: main-horizontal
+1596705059.012415 cmd_parse_build_commands: 0 bind
+1596705059.012421 cmd_parse_build_commands: argv[0]=-N
+1596705059.012427 cmd_parse_build_commands: argv[1]=Set the main-horizontal layout
+1596705059.012432 cmd_parse_build_commands: argv[2]=M-3
+1596705059.012437 cmd_parse_build_commands: argv[3]=select-layout
+1596705059.012443 cmd_parse_build_commands: argv[4]=main-horizontal
+1596705059.012454 cmd_parse: bind-key: argv[0]=bind
+1596705059.012460 cmd_parse: bind-key: argv[1]=-N
+1596705059.012466 cmd_parse: bind-key: argv[2]=Set the main-horizontal layout
+1596705059.012471 cmd_parse: bind-key: argv[3]=M-3
+1596705059.012476 cmd_parse: bind-key: argv[4]=select-layout
+1596705059.012482 cmd_parse: bind-key: argv[5]=main-horizontal
+1596705059.012495 cmd_parse_build_commands: bind-key -N "Set the main-horizontal layout" M-3 select-layout main-horizontal
+1596705059.012503 cmdq_get_command: [bind-key/0xaaaaf7df6840] group 194
+1596705059.012508 cmdq_append <global>: [bind-key/0xaaaaf7df6840]
+1596705059.012514 yylex_token: bind
+1596705059.012519 yylex_token: -N
+1596705059.012526 yylex_token: Set the main-vertical layout
+1596705059.012531 yylex_token: M-4
+1596705059.012537 yylex_token: select-layout
+1596705059.012543 yylex_token: main-vertical
+1596705059.012550 cmd_parse_build_commands: 0 bind
+1596705059.012555 cmd_parse_build_commands: argv[0]=-N
+1596705059.012561 cmd_parse_build_commands: argv[1]=Set the main-vertical layout
+1596705059.012566 cmd_parse_build_commands: argv[2]=M-4
+1596705059.012571 cmd_parse_build_commands: argv[3]=select-layout
+1596705059.012577 cmd_parse_build_commands: argv[4]=main-vertical
+1596705059.012583 cmd_parse: bind-key: argv[0]=bind
+1596705059.012588 cmd_parse: bind-key: argv[1]=-N
+1596705059.012594 cmd_parse: bind-key: argv[2]=Set the main-vertical layout
+1596705059.012599 cmd_parse: bind-key: argv[3]=M-4
+1596705059.012604 cmd_parse: bind-key: argv[4]=select-layout
+1596705059.012610 cmd_parse: bind-key: argv[5]=main-vertical
+1596705059.012623 cmd_parse_build_commands: bind-key -N "Set the main-vertical layout" M-4 select-layout main-vertical
+1596705059.012630 cmdq_get_command: [bind-key/0xaaaaf7df6e10] group 197
+1596705059.012636 cmdq_append <global>: [bind-key/0xaaaaf7df6e10]
+1596705059.012642 yylex_token: bind
+1596705059.012647 yylex_token: -N
+1596705059.012653 yylex_token: Select the tiled layout
+1596705059.012658 yylex_token: M-5
+1596705059.012664 yylex_token: select-layout
+1596705059.012669 yylex_token: tiled
+1596705059.012676 cmd_parse_build_commands: 0 bind
+1596705059.012682 cmd_parse_build_commands: argv[0]=-N
+1596705059.012687 cmd_parse_build_commands: argv[1]=Select the tiled layout
+1596705059.012693 cmd_parse_build_commands: argv[2]=M-5
+1596705059.012698 cmd_parse_build_commands: argv[3]=select-layout
+1596705059.012704 cmd_parse_build_commands: argv[4]=tiled
+1596705059.012710 cmd_parse: bind-key: argv[0]=bind
+1596705059.012715 cmd_parse: bind-key: argv[1]=-N
+1596705059.012720 cmd_parse: bind-key: argv[2]=Select the tiled layout
+1596705059.012726 cmd_parse: bind-key: argv[3]=M-5
+1596705059.012731 cmd_parse: bind-key: argv[4]=select-layout
+1596705059.012736 cmd_parse: bind-key: argv[5]=tiled
+1596705059.012749 cmd_parse_build_commands: bind-key -N "Select the tiled layout" M-5 select-layout tiled
+1596705059.012756 cmdq_get_command: [bind-key/0xaaaaf7df7380] group 200
+1596705059.012762 cmdq_append <global>: [bind-key/0xaaaaf7df7380]
+1596705059.012773 yylex_token: bind
+1596705059.012778 yylex_token: -N
+1596705059.012786 yylex_token: Select the next window with an alert
+1596705059.012792 yylex_token: M-n
+1596705059.012813 yylex_token: next-window
+1596705059.012819 yylex_token: -a
+1596705059.012827 cmd_parse_build_commands: 0 bind
+1596705059.012833 cmd_parse_build_commands: argv[0]=-N
+1596705059.012839 cmd_parse_build_commands: argv[1]=Select the next window with an alert
+1596705059.012844 cmd_parse_build_commands: argv[2]=M-n
+1596705059.012850 cmd_parse_build_commands: argv[3]=next-window
+1596705059.012855 cmd_parse_build_commands: argv[4]=-a
+1596705059.012861 cmd_parse: bind-key: argv[0]=bind
+1596705059.012866 cmd_parse: bind-key: argv[1]=-N
+1596705059.012872 cmd_parse: bind-key: argv[2]=Select the next window with an alert
+1596705059.012878 cmd_parse: bind-key: argv[3]=M-n
+1596705059.012883 cmd_parse: bind-key: argv[4]=next-window
+1596705059.012888 cmd_parse: bind-key: argv[5]=-a
+1596705059.012902 cmd_parse_build_commands: bind-key -N "Select the next window with an alert" M-n next-window -a
+1596705059.012915 cmdq_get_command: [bind-key/0xaaaaf7df7a00] group 203
+1596705059.012921 cmdq_append <global>: [bind-key/0xaaaaf7df7a00]
+1596705059.012927 yylex_token: bind
+1596705059.012932 yylex_token: -N
+1596705059.012940 yylex_token: Rotate through the panes in reverse
+1596705059.012945 yylex_token: M-o
+1596705059.012950 yylex_token: rotate-window
+1596705059.012955 yylex_token: -D
+1596705059.012962 cmd_parse_build_commands: 0 bind
+1596705059.012968 cmd_parse_build_commands: argv[0]=-N
+1596705059.012974 cmd_parse_build_commands: argv[1]=Rotate through the panes in reverse
+1596705059.012979 cmd_parse_build_commands: argv[2]=M-o
+1596705059.012984 cmd_parse_build_commands: argv[3]=rotate-window
+1596705059.012989 cmd_parse_build_commands: argv[4]=-D
+1596705059.012995 cmd_parse: bind-key: argv[0]=bind
+1596705059.013000 cmd_parse: bind-key: argv[1]=-N
+1596705059.013006 cmd_parse: bind-key: argv[2]=Rotate through the panes in reverse
+1596705059.013011 cmd_parse: bind-key: argv[3]=M-o
+1596705059.013016 cmd_parse: bind-key: argv[4]=rotate-window
+1596705059.013021 cmd_parse: bind-key: argv[5]=-D
+1596705059.013034 cmd_parse_build_commands: bind-key -N "Rotate through the panes in reverse" M-o rotate-window -D
+1596705059.013041 cmdq_get_command: [bind-key/0xaaaaf7df8500] group 206
+1596705059.013047 cmdq_append <global>: [bind-key/0xaaaaf7df8500]
+1596705059.013061 yylex_token: bind
+1596705059.013067 yylex_token: -N
+1596705059.013074 yylex_token: Select the previous window with an alert
+1596705059.013080 yylex_token: M-p
+1596705059.013085 yylex_token: previous-window
+1596705059.013090 yylex_token: -a
+1596705059.013097 cmd_parse_build_commands: 0 bind
+1596705059.013103 cmd_parse_build_commands: argv[0]=-N
+1596705059.013109 cmd_parse_build_commands: argv[1]=Select the previous window with an alert
+1596705059.013114 cmd_parse_build_commands: argv[2]=M-p
+1596705059.013119 cmd_parse_build_commands: argv[3]=previous-window
+1596705059.013124 cmd_parse_build_commands: argv[4]=-a
+1596705059.013130 cmd_parse: bind-key: argv[0]=bind
+1596705059.013135 cmd_parse: bind-key: argv[1]=-N
+1596705059.013141 cmd_parse: bind-key: argv[2]=Select the previous window with an alert
+1596705059.013146 cmd_parse: bind-key: argv[3]=M-p
+1596705059.013151 cmd_parse: bind-key: argv[4]=previous-window
+1596705059.013156 cmd_parse: bind-key: argv[5]=-a
+1596705059.013170 cmd_parse_build_commands: bind-key -N "Select the previous window with an alert" M-p previous-window -a
+1596705059.013178 cmdq_get_command: [bind-key/0xaaaaf7df8da0] group 209
+1596705059.013184 cmdq_append <global>: [bind-key/0xaaaaf7df8da0]
+1596705059.013190 yylex_token: bind
+1596705059.013195 yylex_token: -N
+1596705059.013203 yylex_token: Move the visible part of the window up
+1596705059.013208 yylex_token: -r
+1596705059.013214 yylex_token: S-Up
+1596705059.013220 yylex_token: refresh-client
+1596705059.013225 yylex_token: -U
+1596705059.013230 yylex_token: 10
+1596705059.013237 cmd_parse_build_commands: 0 bind
+1596705059.013243 cmd_parse_build_commands: argv[0]=-N
+1596705059.013249 cmd_parse_build_commands: argv[1]=Move the visible part of the window up
+1596705059.013254 cmd_parse_build_commands: argv[2]=-r
+1596705059.013260 cmd_parse_build_commands: argv[3]=S-Up
+1596705059.013265 cmd_parse_build_commands: argv[4]=refresh-client
+1596705059.013270 cmd_parse_build_commands: argv[5]=-U
+1596705059.013275 cmd_parse_build_commands: argv[6]=10
+1596705059.013281 cmd_parse: bind-key: argv[0]=bind
+1596705059.013286 cmd_parse: bind-key: argv[1]=-N
+1596705059.013293 cmd_parse: bind-key: argv[2]=Move the visible part of the window up
+1596705059.013298 cmd_parse: bind-key: argv[3]=-r
+1596705059.013303 cmd_parse: bind-key: argv[4]=S-Up
+1596705059.013309 cmd_parse: bind-key: argv[5]=refresh-client
+1596705059.013314 cmd_parse: bind-key: argv[6]=-U
+1596705059.013319 cmd_parse: bind-key: argv[7]=10
+1596705059.013335 cmd_parse_build_commands: bind-key -r -N "Move the visible part of the window up" S-Up refresh-client -U 10
+1596705059.013343 cmdq_get_command: [bind-key/0xaaaaf7df9140] group 212
+1596705059.013354 cmdq_append <global>: [bind-key/0xaaaaf7df9140]
+1596705059.013360 yylex_token: bind
+1596705059.013366 yylex_token: -N
+1596705059.013374 yylex_token: Move the visible part of the window down
+1596705059.013379 yylex_token: -r
+1596705059.013384 yylex_token: S-Down
+1596705059.013390 yylex_token: refresh-client
+1596705059.013395 yylex_token: -D
+1596705059.013400 yylex_token: 10
+1596705059.013407 cmd_parse_build_commands: 0 bind
+1596705059.013413 cmd_parse_build_commands: argv[0]=-N
+1596705059.013418 cmd_parse_build_commands: argv[1]=Move the visible part of the window down
+1596705059.013424 cmd_parse_build_commands: argv[2]=-r
+1596705059.013429 cmd_parse_build_commands: argv[3]=S-Down
+1596705059.013434 cmd_parse_build_commands: argv[4]=refresh-client
+1596705059.013439 cmd_parse_build_commands: argv[5]=-D
+1596705059.013444 cmd_parse_build_commands: argv[6]=10
+1596705059.013450 cmd_parse: bind-key: argv[0]=bind
+1596705059.013455 cmd_parse: bind-key: argv[1]=-N
+1596705059.013461 cmd_parse: bind-key: argv[2]=Move the visible part of the window down
+1596705059.013466 cmd_parse: bind-key: argv[3]=-r
+1596705059.013471 cmd_parse: bind-key: argv[4]=S-Down
+1596705059.013476 cmd_parse: bind-key: argv[5]=refresh-client
+1596705059.013481 cmd_parse: bind-key: argv[6]=-D
+1596705059.013486 cmd_parse: bind-key: argv[7]=10
+1596705059.013506 cmd_parse_build_commands: bind-key -r -N "Move the visible part of the window down" S-Down refresh-client -D 10
+1596705059.013514 cmdq_get_command: [bind-key/0xaaaaf7dfa170] group 215
+1596705059.013520 cmdq_append <global>: [bind-key/0xaaaaf7dfa170]
+1596705059.013526 yylex_token: bind
+1596705059.013531 yylex_token: -N
+1596705059.013539 yylex_token: Move the visible part of the window left
+1596705059.013544 yylex_token: -r
+1596705059.013549 yylex_token: S-Left
+1596705059.013555 yylex_token: refresh-client
+1596705059.013560 yylex_token: -L
+1596705059.013565 yylex_token: 10
+1596705059.013573 cmd_parse_build_commands: 0 bind
+1596705059.013578 cmd_parse_build_commands: argv[0]=-N
+1596705059.013584 cmd_parse_build_commands: argv[1]=Move the visible part of the window left
+1596705059.013589 cmd_parse_build_commands: argv[2]=-r
+1596705059.013594 cmd_parse_build_commands: argv[3]=S-Left
+1596705059.013600 cmd_parse_build_commands: argv[4]=refresh-client
+1596705059.013605 cmd_parse_build_commands: argv[5]=-L
+1596705059.013610 cmd_parse_build_commands: argv[6]=10
+1596705059.013616 cmd_parse: bind-key: argv[0]=bind
+1596705059.013621 cmd_parse: bind-key: argv[1]=-N
+1596705059.013627 cmd_parse: bind-key: argv[2]=Move the visible part of the window left
+1596705059.013632 cmd_parse: bind-key: argv[3]=-r
+1596705059.013638 cmd_parse: bind-key: argv[4]=S-Left
+1596705059.013643 cmd_parse: bind-key: argv[5]=refresh-client
+1596705059.013648 cmd_parse: bind-key: argv[6]=-L
+1596705059.013653 cmd_parse: bind-key: argv[7]=10
+1596705059.013669 cmd_parse_build_commands: bind-key -r -N "Move the visible part of the window left" S-Left refresh-client -L 10
+1596705059.013677 cmdq_get_command: [bind-key/0xaaaaf7dfa480] group 218
+1596705059.013683 cmdq_append <global>: [bind-key/0xaaaaf7dfa480]
+1596705059.013693 yylex_token: bind
+1596705059.013699 yylex_token: -N
+1596705059.013707 yylex_token: Move the visible part of the window right
+1596705059.013712 yylex_token: -r
+1596705059.013718 yylex_token: S-Right
+1596705059.013723 yylex_token: refresh-client
+1596705059.013728 yylex_token: -R
+1596705059.013733 yylex_token: 10
+1596705059.013741 cmd_parse_build_commands: 0 bind
+1596705059.013747 cmd_parse_build_commands: argv[0]=-N
+1596705059.013753 cmd_parse_build_commands: argv[1]=Move the visible part of the window right
+1596705059.013758 cmd_parse_build_commands: argv[2]=-r
+1596705059.013764 cmd_parse_build_commands: argv[3]=S-Right
+1596705059.013769 cmd_parse_build_commands: argv[4]=refresh-client
+1596705059.013775 cmd_parse_build_commands: argv[5]=-R
+1596705059.013780 cmd_parse_build_commands: argv[6]=10
+1596705059.013786 cmd_parse: bind-key: argv[0]=bind
+1596705059.013791 cmd_parse: bind-key: argv[1]=-N
+1596705059.013797 cmd_parse: bind-key: argv[2]=Move the visible part of the window right
+1596705059.013806 cmd_parse: bind-key: argv[3]=-r
+1596705059.013811 cmd_parse: bind-key: argv[4]=S-Right
+1596705059.013816 cmd_parse: bind-key: argv[5]=refresh-client
+1596705059.013822 cmd_parse: bind-key: argv[6]=-R
+1596705059.013827 cmd_parse: bind-key: argv[7]=10
+1596705059.013842 cmd_parse_build_commands: bind-key -r -N "Move the visible part of the window right" S-Right refresh-client -R 10
+1596705059.013850 cmdq_get_command: [bind-key/0xaaaaf7dfab60] group 221
+1596705059.013856 cmdq_append <global>: [bind-key/0xaaaaf7dfab60]
+1596705059.013861 yylex_token: bind
+1596705059.013867 yylex_token: -N
+1596705059.013876 yylex_token: Reset so the visible part of the window follows the cursor
+1596705059.013881 yylex_token: -r
+1596705059.013886 yylex_token: DC
+1596705059.013892 yylex_token: refresh-client
+1596705059.013897 yylex_token: -c
+1596705059.013904 cmd_parse_build_commands: 0 bind
+1596705059.013909 cmd_parse_build_commands: argv[0]=-N
+1596705059.013915 cmd_parse_build_commands: argv[1]=Reset so the visible part of the window follows the cursor
+1596705059.013921 cmd_parse_build_commands: argv[2]=-r
+1596705059.013926 cmd_parse_build_commands: argv[3]=DC
+1596705059.013931 cmd_parse_build_commands: argv[4]=refresh-client
+1596705059.013936 cmd_parse_build_commands: argv[5]=-c
+1596705059.013942 cmd_parse: bind-key: argv[0]=bind
+1596705059.013947 cmd_parse: bind-key: argv[1]=-N
+1596705059.013953 cmd_parse: bind-key: argv[2]=Reset so the visible part of the window follows the cursor
+1596705059.013958 cmd_parse: bind-key: argv[3]=-r
+1596705059.013963 cmd_parse: bind-key: argv[4]=DC
+1596705059.013968 cmd_parse: bind-key: argv[5]=refresh-client
+1596705059.013973 cmd_parse: bind-key: argv[6]=-c
+1596705059.013989 cmd_parse_build_commands: bind-key -r -N "Reset so the visible part of the window follows the cursor" DC refresh-client -c
+1596705059.013997 cmdq_get_command: [bind-key/0xaaaaf7dfbc50] group 224
+1596705059.014003 cmdq_append <global>: [bind-key/0xaaaaf7dfbc50]
+1596705059.014012 yylex_token: bind
+1596705059.014018 yylex_token: -N
+1596705059.014024 yylex_token: Resize the pane up by 5
+1596705059.014029 yylex_token: -r
+1596705059.014034 yylex_token: M-Up
+1596705059.014040 yylex_token: resize-pane
+1596705059.014045 yylex_token: -U
+1596705059.014050 yylex_token: 5
+1596705059.014057 cmd_parse_build_commands: 0 bind
+1596705059.014063 cmd_parse_build_commands: argv[0]=-N
+1596705059.014068 cmd_parse_build_commands: argv[1]=Resize the pane up by 5
+1596705059.014074 cmd_parse_build_commands: argv[2]=-r
+1596705059.014079 cmd_parse_build_commands: argv[3]=M-Up
+1596705059.014084 cmd_parse_build_commands: argv[4]=resize-pane
+1596705059.014089 cmd_parse_build_commands: argv[5]=-U
+1596705059.014094 cmd_parse_build_commands: argv[6]=5
+1596705059.014100 cmd_parse: bind-key: argv[0]=bind
+1596705059.014105 cmd_parse: bind-key: argv[1]=-N
+1596705059.014111 cmd_parse: bind-key: argv[2]=Resize the pane up by 5
+1596705059.014116 cmd_parse: bind-key: argv[3]=-r
+1596705059.014121 cmd_parse: bind-key: argv[4]=M-Up
+1596705059.014127 cmd_parse: bind-key: argv[5]=resize-pane
+1596705059.014132 cmd_parse: bind-key: argv[6]=-U
+1596705059.014137 cmd_parse: bind-key: argv[7]=5
+1596705059.014152 cmd_parse_build_commands: bind-key -r -N "Resize the pane up by 5" M-Up resize-pane -U 5
+1596705059.014160 cmdq_get_command: [bind-key/0xaaaaf7dfc020] group 227
+1596705059.014166 cmdq_append <global>: [bind-key/0xaaaaf7dfc020]
+1596705059.014172 yylex_token: bind
+1596705059.014178 yylex_token: -N
+1596705059.014184 yylex_token: Resize the pane down by 5
+1596705059.014190 yylex_token: -r
+1596705059.014195 yylex_token: M-Down
+1596705059.014201 yylex_token: resize-pane
+1596705059.014206 yylex_token: -D
+1596705059.014211 yylex_token: 5
+1596705059.014218 cmd_parse_build_commands: 0 bind
+1596705059.014224 cmd_parse_build_commands: argv[0]=-N
+1596705059.014229 cmd_parse_build_commands: argv[1]=Resize the pane down by 5
+1596705059.014234 cmd_parse_build_commands: argv[2]=-r
+1596705059.014239 cmd_parse_build_commands: argv[3]=M-Down
+1596705059.014250 cmd_parse_build_commands: argv[4]=resize-pane
+1596705059.014255 cmd_parse_build_commands: argv[5]=-D
+1596705059.014260 cmd_parse_build_commands: argv[6]=5
+1596705059.014266 cmd_parse: bind-key: argv[0]=bind
+1596705059.014271 cmd_parse: bind-key: argv[1]=-N
+1596705059.014277 cmd_parse: bind-key: argv[2]=Resize the pane down by 5
+1596705059.014282 cmd_parse: bind-key: argv[3]=-r
+1596705059.014287 cmd_parse: bind-key: argv[4]=M-Down
+1596705059.014292 cmd_parse: bind-key: argv[5]=resize-pane
+1596705059.014297 cmd_parse: bind-key: argv[6]=-D
+1596705059.014302 cmd_parse: bind-key: argv[7]=5
+1596705059.014322 cmd_parse_build_commands: bind-key -r -N "Resize the pane down by 5" M-Down resize-pane -D 5
+1596705059.014330 cmdq_get_command: [bind-key/0xaaaaf7dfaef0] group 230
+1596705059.014335 cmdq_append <global>: [bind-key/0xaaaaf7dfaef0]
+1596705059.014341 yylex_token: bind
+1596705059.014347 yylex_token: -N
+1596705059.014353 yylex_token: Resize the pane left by 5
+1596705059.014359 yylex_token: -r
+1596705059.014364 yylex_token: M-Left
+1596705059.014370 yylex_token: resize-pane
+1596705059.014375 yylex_token: -L
+1596705059.014379 yylex_token: 5
+1596705059.014387 cmd_parse_build_commands: 0 bind
+1596705059.014392 cmd_parse_build_commands: argv[0]=-N
+1596705059.014398 cmd_parse_build_commands: argv[1]=Resize the pane left by 5
+1596705059.014403 cmd_parse_build_commands: argv[2]=-r
+1596705059.014408 cmd_parse_build_commands: argv[3]=M-Left
+1596705059.014413 cmd_parse_build_commands: argv[4]=resize-pane
+1596705059.014418 cmd_parse_build_commands: argv[5]=-L
+1596705059.014423 cmd_parse_build_commands: argv[6]=5
+1596705059.014429 cmd_parse: bind-key: argv[0]=bind
+1596705059.014434 cmd_parse: bind-key: argv[1]=-N
+1596705059.014440 cmd_parse: bind-key: argv[2]=Resize the pane left by 5
+1596705059.014445 cmd_parse: bind-key: argv[3]=-r
+1596705059.014451 cmd_parse: bind-key: argv[4]=M-Left
+1596705059.014456 cmd_parse: bind-key: argv[5]=resize-pane
