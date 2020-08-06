@@ -1,0 +1,27 @@
+1596705059.001849 client started (2421): version 3.1, socket /tmp/tmux-0/default, protocol 8
+1596705059.001921 on Linux 5.6.6-300.fc32.aarch64 #1 SMP Tue Apr 21 13:25:53 UTC 2020; libevent 2.1.8-stable (poll)
+1596705059.001953 socket is /tmp/tmux-0/default
+1596705059.001969 trying connect
+1596705059.001990 connect failed: Connection refused
+1596705059.002005 lock file is /tmp/tmux-0/default.lock
+1596705059.002050 flock succeeded
+1596705059.002057 got lock (8)
+1596705059.002066 trying connect
+1596705059.002078 connect failed: Connection refused
+1596705059.002633 add peer 0xaaaaf7dddc90: 9 ((nil))
+1596705059.002815 sending message 100 to peer 0xaaaaf7dddc90 (4 bytes)
+1596705059.002827 sending message 101 to peer 0xaaaaf7dddc90 (1 bytes)
+1596705059.002834 sending message 102 to peer 0xaaaaf7dddc90 (1 bytes)
+1596705059.002841 sending message 108 to peer 0xaaaaf7dddc90 (14 bytes)
+1596705059.002850 sending message 104 to peer 0xaaaaf7dddc90 (0 bytes)
+1596705059.002858 sending message 107 to peer 0xaaaaf7dddc90 (4 bytes)
+1596705059.002873 sending message 105 to peer 0xaaaaf7dddc90 (17 bytes)
+1596705059.002886 sending message 105 to peer 0xaaaaf7dddc90 (55 bytes)
+1596705059.002893 sending message 105 to peer 0xaaaaf7dddc90 (47 bytes)
+1596705059.002900 sending message 105 to peer 0xaaaaf7dddc90 (23 bytes)
+1596705059.002906 sending message 106 to peer 0xaaaaf7dddc90 (0 bytes)
+1596705059.002914 cmd_pack_argv: argv[0]=start
+1596705059.002920 sending message 200 to peer 0xaaaaf7dddc90 (10 bytes)
+1596705059.002926 client loop enter
+1596705059.084386 peer 0xaaaaf7dddc90 message 203
+1596705059.084460 client loop exit
